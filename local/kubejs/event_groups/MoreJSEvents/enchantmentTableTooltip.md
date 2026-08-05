@@ -22,12 +22,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getSlot |  |  | int | ✘ |
 | getLines |  |  | List<Object> | ✘ |
 | getRequiredLevel |  |  | int | ✘ |
-| getClueId |  |  | ResourceLocation | ✘ |
 | getClue |  |  | EnchantmentInstance | ✘ |
+| getClueId |  |  | ResourceLocation | ✘ |
 | getItem |  |  | ItemStack | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getSecondItem |  |  | ItemStack | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

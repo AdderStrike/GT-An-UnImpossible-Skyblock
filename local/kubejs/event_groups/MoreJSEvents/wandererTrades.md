@@ -19,13 +19,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getTrades | int |  | List<VillagerTrades$ItemListing> | ✘ |
-| removeVanillaTrades | int |  | void | ✘ |
-| addTrade | int, TradeItem[], TradeItem |  | SimpleTrade | ✘ |
 | addTrade | int, T extends VillagerTrades$ItemListing |  | T extends VillagerTrades$ItemListing | ✘ |
+| addTrade | int, TradeItem[], TradeItem |  | SimpleTrade | ✘ |
+| getTrades | int |  | List<VillagerTrades$ItemListing> | ✘ |
 | addCustomTrade | int, Transformer |  | void | ✘ |
-| removeModdedTrades | int |  | void | ✘ |
 | removeTrades | TradeFilter |  | void | ✘ |
+| removeModdedTrades | int |  | void | ✘ |
+| removeVanillaTrades | int |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

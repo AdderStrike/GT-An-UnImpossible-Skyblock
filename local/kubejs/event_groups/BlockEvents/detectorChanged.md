@@ -26,8 +26,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getLevel |  |  | Level | ✘ |
 | isPowered |  |  | boolean | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getDetectorId |  |  | String | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -45,14 +45,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 The detector block.
 ```
 
-- `Level getLevel()`
-```
-The level where the detector block is located.
-```
-
 - `boolean isPowered()`
 ```
 If the detector block is powered.
+```
+
+- `Level getLevel()`
+```
+The level where the detector block is located.
 ```
 
 - `String getDetectorId()`

@@ -1,0 +1,18 @@
+{
+	version: 1
+	uuid: "cb0c7667e43d4c0992a6803b279b2fd6"
+	name: "yoyo1309#cb0c7667"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: {
+		cb0c7667e43d4c0992a6803b279b2fd6: {
+			can_edit: 1b
+		}
+	}
+}

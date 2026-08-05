@@ -22,18 +22,18 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | set | CraftingComponent, Map<Object, Object> |  | void | ✘ |
 | createTag | String, ResourceLocation |  | ComponentWrapper | ✘ |
 | setTag | CraftingComponent, int, ResourceLocation |  | void | ✘ |
-| setItem | CraftingComponent, int, ItemStack |  | void | ✘ |
-| setItems | CraftingComponent, Map<Object, Object> |  | void | ✘ |
 | createItem | String, ItemStack |  | ComponentWrapper | ✘ |
+| setItem | CraftingComponent, int, ItemStack |  | void | ✘ |
 | setTags | CraftingComponent, Map<Object, Object> |  | void | ✘ |
-| setFallbackItem | CraftingComponent, ItemStack |  | void | ✘ |
-| setMaterialEntries | CraftingComponent, Map<Object, Object> |  | void | ✘ |
-| setMaterialEntry | CraftingComponent, int, MaterialEntry |  | void | ✘ |
-| setFallbackTag | CraftingComponent, ResourceLocation |  | void | ✘ |
-| removeTier | CraftingComponent, int |  | void | ✘ |
-| removeTiers | CraftingComponent, int[] |  | void | ✘ |
+| setItems | CraftingComponent, Map<Object, Object> |  | void | ✘ |
 | createMaterialEntry | String, MaterialEntry |  | ComponentWrapper | ✘ |
 | setFallbackMaterialEntry | CraftingComponent, MaterialEntry |  | void | ✘ |
+| setMaterialEntries | CraftingComponent, Map<Object, Object> |  | void | ✘ |
+| setFallbackTag | CraftingComponent, ResourceLocation |  | void | ✘ |
+| removeTier | CraftingComponent, int |  | void | ✘ |
+| setFallbackItem | CraftingComponent, ItemStack |  | void | ✘ |
+| setMaterialEntry | CraftingComponent, int, MaterialEntry |  | void | ✘ |
+| removeTiers | CraftingComponent, int[] |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

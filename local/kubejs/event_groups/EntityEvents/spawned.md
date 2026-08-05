@@ -25,8 +25,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getLevel |  |  | Level | ✘ |
 | getEntity |  |  | Entity | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -39,14 +39,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `Level getLevel()`
-```
-The level the entity is being added to.
-```
-
 - `Entity getEntity()`
 ```
 The entity being added to the world.
+```
+
+- `Level getLevel()`
+```
+The level the entity is being added to.
 ```
 
 - `Object exit(Object var0)`

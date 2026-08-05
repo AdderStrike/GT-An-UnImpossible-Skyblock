@@ -21,10 +21,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | addPotionBrewing | Ingredient, Potion |  | void | ✘ |
 | addPotionBrewing | Ingredient, Potion, Potion |  | void | ✘ |
-| addCustomBrewing | Ingredient, Ingredient, ItemStack |  | void | ✘ |
-| validateContainer | Item, Ingredient, Item |  | void | ✘ |
 | addContainerRecipe | Item, Ingredient, Item |  | void | ✘ |
 | removeContainer | Ingredient |  | void | ✘ |
+| validateContainer | Item, Ingredient, Item |  | void | ✘ |
+| addCustomBrewing | Ingredient, Ingredient, ItemStack |  | void | ✘ |
 | removeByPotion | Potion, Ingredient, Potion |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

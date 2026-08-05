@@ -20,9 +20,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getRandom |  |  | Random | ✘ |
-| getCrop |  |  | Crop | ✘ |
-| getOriginalDrops |  |  | List<ItemStack> | ✘ |
 | getDrops |  |  | List<ItemStack> | ✘ |
+| getOriginalDrops |  |  | List<ItemStack> | ✘ |
+| getCrop |  |  | Crop | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

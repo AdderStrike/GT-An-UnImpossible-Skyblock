@@ -19,6 +19,18 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
+        Item.of("minecraft:coarse_dirt",4),
+        [
+            "AB ",
+            "BA ",
+            "   "
+        ], {
+            A: "minecraft:dirt",
+            B: "minecraft:gravel"
+        }
+    )
+
+    event.shaped(
         Item.of("agricraft:wooden_crop_sticks",1),
         [
             "AA ",

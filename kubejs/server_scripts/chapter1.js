@@ -46,15 +46,17 @@ ServerEvents.recipes(event => {
         "minecraft:gravel"
       ]
     )
-
-    event.shapeless(
-      Item.of("gtceu:stone_rod",1),
-      [
-        "2x gtceu:stone_dust",
-        "gtceu:tiny_calcite_dust",
-        "minecraft:flint"
-      ]
-    )
+    let rodList = ["stone","andesite","diorite","granite"];
+    rodList.forEach(item => {
+      event.shapeless(
+        Item.of("gtceu:"+item+"_rod",1),
+        [
+          "2x gtceu:"+item+"_dust",
+          "gtceu:tiny_calcite_dust",
+          "minecraft:flint"
+        ]
+      )
+    })
 
     event.shapeless(
       Item.of("gtceu:stone_plate",1),
@@ -125,15 +127,42 @@ ServerEvents.recipes(event => {
 });
 
 BlockEvents.rightClicked("minecraft:dirt", event => {
-  if (event.player.isShiftKeyDown()&&event.player.mainHandItem.empty) {
+  let player = event.player;
+  let itemID = event.player.mainHandItem.id;
+  let breakChanceGiven = {
+      "gtceu:stone_rod":50,
+      "gtceu:granite_rod":25,
+      "gtceu:diorite_rod":15,
+      "gtceu:andesite_rod":5,
+  };
+
+  let breakChance;
+  let multiplier;
+  let itemList = Object.keys(breakChanceGiven);
+
+  if (itemList.indexOf(itemID)) {
+    multiplier = 5;
+    breakChance = breakChanceGiven[itemID];
+  } else {
+    multiplier = 1
+    breakChance = -1;
+  }
+
+
+  if (player.isShiftKeyDown()) {
     let randomInt = Math.floor(Math.random()*100)+1;
     if (randomInt>=80){
-      event.player.give("gtceu:hematite_indicator");
+      event.player.give(Item.of("gtceu:hematite_indicator",multiplier));
     } else if (randomInt>=60){
-      event.player.give("gtceu:calcite_indicator");
+      event.player.give(Item.of("gtceu:calcite_indicator",multiplier));
     } else if (randomInt>50){
-      event.player.give("gtceu:gypsum_indicator");
+      event.player.give(Item.of("gtceu:gypsum_indicator",multiplier));
     }
+    
+    if (randomInt < breakChance) {
+      player.mainHandItem.setCount(player.mainHandItem.count-1);
+    }
+
 }});
 
 //Tulips

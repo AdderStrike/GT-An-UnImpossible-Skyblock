@@ -23,11 +23,11 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getId |  |  | String | ✘ |
 | getEntities |  |  | EntityInfoWrapper | ✘ |
 | getPalette | int |  | PaletteWrapper | ✘ |
-| forEachPalettes | Consumer<PaletteWrapper> |  | void | ✘ |
 | removePalette | int |  | void | ✘ |
-| getEntitiesSize |  |  | int | ✘ |
 | getStructureSize |  |  | Vec3i | ✘ |
 | getPalettesSize |  |  | int | ✘ |
+| getEntitiesSize |  |  | int | ✘ |
+| forEachPalettes | Consumer<PaletteWrapper> |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

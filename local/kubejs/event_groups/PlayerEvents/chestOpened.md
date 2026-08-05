@@ -29,10 +29,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getInventory |  |  | Container | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
 | getInventoryContainer |  |  | AbstractContainerMenu | ✘ |
-| getPlayer |  |  | Player | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -65,15 +65,6 @@ Gets the player that opened or closed the container.
 Gets the container that was opened or closed.
 ```
 
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Checks if the player has the specified game stage
-```
-
 - `void addGameStage(String var0)`
 
   Parameters:
@@ -81,6 +72,15 @@ Checks if the player has the specified game stage
 
 ```
 Adds the specified game stage to the player
+```
+
+- `boolean hasGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Checks if the player has the specified game stage
 ```
 
 - `void removeGameStage(String var0)`

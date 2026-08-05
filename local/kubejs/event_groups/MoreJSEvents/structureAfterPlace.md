@@ -21,21 +21,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getId |  |  | ResourceLocation | ✘ |
 | getType |  |  | ResourceLocation | ✘ |
-| getLevel |  |  | Level | ✘ |
-| getChunkPos |  |  | ChunkPos | ✘ |
-| getStructure |  |  | Structure | ✘ |
-| getRandomSource |  |  | RandomSource | ✘ |
-| getChunkGenerator |  |  | ChunkGenerator | ✘ |
-| getWorldGenLevel |  |  | WorldGenLevel | ✘ |
-| getGenStep |  |  | String | ✘ |
-| getPiecesContainer |  |  | PiecesContainer | ✘ |
-| getIntersectionMap |  |  | Map<StructurePiece, BoundingBox> | ✘ |
-| getPieceType | StructurePieceType |  | ResourceLocation | ✘ |
-| getStructureManager |  |  | StructureManager | ✘ |
 | getChunkBoundingBox |  |  | BoundingBox | ✘ |
+| getStructureManager |  |  | StructureManager | ✘ |
+| getChunkPos |  |  | ChunkPos | ✘ |
+| getLevel |  |  | Level | ✘ |
+| getIntersectionPieces |  |  | Collection<StructurePiece> | ✘ |
 | getStructureBoundingBox |  |  | BoundingBox | ✘ |
 | getIntersectionBoxes |  |  | Collection<BoundingBox> | ✘ |
-| getIntersectionPieces |  |  | Collection<StructurePiece> | ✘ |
+| getRandomSource |  |  | RandomSource | ✘ |
+| getStructure |  |  | Structure | ✘ |
+| getPieceType | StructurePieceType |  | ResourceLocation | ✘ |
+| getGenStep |  |  | String | ✘ |
+| getIntersectionMap |  |  | Map<StructurePiece, BoundingBox> | ✘ |
+| getPiecesContainer |  |  | PiecesContainer | ✘ |
+| getChunkGenerator |  |  | ChunkGenerator | ✘ |
+| getWorldGenLevel |  |  | WorldGenLevel | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

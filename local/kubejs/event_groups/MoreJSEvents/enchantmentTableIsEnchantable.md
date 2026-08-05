@@ -22,12 +22,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | get | int |  | Data | ✘ |
 | getSize |  |  | int | ✘ |
 | getPosition |  |  | BlockPos | ✘ |
-| setItem | ItemStack |  | void | ✘ |
 | itemWasChanged |  |  | boolean | ✘ |
+| setItem | ItemStack |  | void | ✘ |
 | getItem |  |  | ItemStack | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getSecondItem |  |  | ItemStack | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

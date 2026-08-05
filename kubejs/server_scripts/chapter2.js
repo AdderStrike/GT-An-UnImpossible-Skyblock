@@ -21,7 +21,7 @@ const replaceBlockWithItemHadTag = (eventGiven,tagRequiredId,itemCountRequired,d
 
 ServerEvents.recipes(event => {
     // Primitive Conversions: 16 tiny dust => 1 regular dust
-    const powderCrudeConversionList = ["flint","hematite","calcite","gypsum"]
+    const powderCrudeConversionList = ["flint","hematite","calcite","gypsum","granite","diorite","andesite"]
     powderCrudeConversionList.forEach(element => {
         event.shapeless(
             Item.of("gtceu:small_"+element+"_dust",1),

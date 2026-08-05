@@ -25,8 +25,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getItem |  |  | ItemStack | ✘ |
 | getEntity |  |  | Entity | ✘ |
-| getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

@@ -20,21 +20,21 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getEntity |  |  | Player | ✘ |
-| getXpNeededForNextLevel |  |  | int | ✘ |
+| getAmount |  |  | int | ✘ |
+| setAmount | int |  | void | ✘ |
+| getExperienceLevel |  |  | int | ✘ |
+| getTotalExperience |  |  | int | ✘ |
+| willLevelUp |  |  | boolean | ✘ |
+| setTotalExperience | int |  | void | ✘ |
+| setExperienceLevel | int |  | void | ✘ |
 | getExperienceProgress |  |  | float | ✘ |
 | setExperienceProgress | float |  | void | ✘ |
+| getXpNeededForNextLevel |  |  | int | ✘ |
 | getRemainingExperience |  |  | int | ✘ |
-| setExperienceLevel | int |  | void | ✘ |
-| willLevelUp |  |  | boolean | ✘ |
-| getExperienceLevel |  |  | int | ✘ |
-| setTotalExperience | int |  | void | ✘ |
-| getTotalExperience |  |  | int | ✘ |
-| setAmount | int |  | void | ✘ |
-| getAmount |  |  | int | ✘ |
-| getPlayer |  |  | Player | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -47,15 +47,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 ### Documented members:
 
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Checks if the player has the specified game stage
-```
-
 - `void addGameStage(String var0)`
 
   Parameters:
@@ -63,6 +54,15 @@ Checks if the player has the specified game stage
 
 ```
 Adds the specified game stage to the player
+```
+
+- `boolean hasGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Checks if the player has the specified game stage
 ```
 
 - `void removeGameStage(String var0)`

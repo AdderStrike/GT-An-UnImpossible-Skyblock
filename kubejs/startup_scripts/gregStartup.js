@@ -132,6 +132,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         item.addFlags(GTMaterialFlags.GENERATE_FINE_WIRE);
     })
 
+    GTMaterials.Granite.addFlags(GTMaterialFlags.GENERATE_ROD)
+    GTMaterials.Diorite.addFlags(GTMaterialFlags.GENERATE_ROD)
+    GTMaterials.Andesite.addFlags(GTMaterialFlags.GENERATE_ROD)
+
     // Fluids
     event.create("spectral_oil").fluid().color(0x000000);
 

@@ -19,13 +19,13 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| build | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
 | getType |  |  | String | ✘ |
 | getDirectory |  |  | String | ✘ |
+| build | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
 | addBlock | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
 | modifyBlock | BlockStatePredicate, Consumer<LootBuilder> |  | void | ✘ |
-| addSimpleBlock | BlockStatePredicate, ItemStack |  | void | ✘ |
 | addSimpleBlock | BlockStatePredicate |  | void | ✘ |
+| addSimpleBlock | BlockStatePredicate, ItemStack |  | void | ✘ |
 | removeAll |  |  | void | ✘ |
 | modify | ResourceLocation, Consumer<LootBuilder> |  | void | ✘ |
 | addJson | ResourceLocation, JsonObject |  | void | ✘ |

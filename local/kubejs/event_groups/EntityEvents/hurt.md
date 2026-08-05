@@ -26,8 +26,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getSource |  |  | DamageSource | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
 | getDamage |  |  | float | ✘ |
-| getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

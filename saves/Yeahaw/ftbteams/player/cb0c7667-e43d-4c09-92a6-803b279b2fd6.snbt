@@ -1,0 +1,15 @@
+{
+	id: "cb0c7667-e43d-4c09-92a6-803b279b2fd6"
+	type: "player"
+	player_name: "yoyo1309"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "yoyo1309"
+		"ftbteams:description": ""
+		"ftbteams:color": "#6959FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

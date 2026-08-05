@@ -26,12 +26,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | remove | Ingredient |  | void | ✘ |
 | addAfter | ItemStack, ItemStack[], CreativeModeTab$TabVisibility |  | void | ✘ |
 | addAfter | ItemStack, ItemStack[] |  | void | ✘ |
-| removeSearch | Ingredient |  | void | ✘ |
 | removeDisplay | Ingredient |  | void | ✘ |
+| removeSearch | Ingredient |  | void | ✘ |
 | setIcon | ItemStack |  | void | ✘ |
+| setDisplayName | Component |  | void | ✘ |
 | addBefore | ItemStack, ItemStack[], CreativeModeTab$TabVisibility |  | void | ✘ |
 | addBefore | ItemStack, ItemStack[] |  | void | ✘ |
-| setDisplayName | Component |  | void | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |

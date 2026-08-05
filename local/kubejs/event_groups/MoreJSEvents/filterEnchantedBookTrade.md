@@ -21,14 +21,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | add | Enchantment[] |  | void | ✘ |
 | remove | Enchantment[] |  | void | ✘ |
-| getEntity |  |  | AbstractVillager | ✘ |
 | getRandom |  |  | RandomSource | ✘ |
+| getEntity |  |  | LivingEntity | ✘ |
 | getEnchantments |  |  | List<Enchantment> | ✘ |
+| printEnchantments |  |  | void | ✘ |
 | isWanderer |  |  | boolean | ✘ |
 | isVillager |  |  | boolean | ✘ |
-| printEnchantments |  |  | void | ✘ |
-| getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

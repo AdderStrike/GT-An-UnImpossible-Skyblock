@@ -21,14 +21,14 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getType |  |  | TeleportType | ✘ |
 | getY |  |  | double | ✘ |
-| getEntity |  |  | Entity | ✘ |
-| setX | double |  | void | ✘ |
-| setY | double |  | void | ✘ |
-| getX |  |  | double | ✘ |
 | getZ |  |  | double | ✘ |
+| getEntity |  |  | Entity | ✘ |
+| setY | double |  | void | ✘ |
+| setX | double |  | void | ✘ |
+| getX |  |  | double | ✘ |
 | setZ | double |  | void | ✘ |
-| getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |

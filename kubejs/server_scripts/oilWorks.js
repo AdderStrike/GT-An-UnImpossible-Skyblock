@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         Fluid.of("gtceu:coal_gas",50*125),
         Fluid.of("gtceu:sulfuric_gas",50*125),
         Fluid.of("gtceu:natural_gas",50*125),
-    ).itemOutput('compressium:coal_2');
+    ).itemOutput(Item.of('compressium:coal_2'));
 });
 
 GTCEuServerEvents.fluidVeins(event => {

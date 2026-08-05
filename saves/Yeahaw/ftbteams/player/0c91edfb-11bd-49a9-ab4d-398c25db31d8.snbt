@@ -1,0 +1,15 @@
+{
+	id: "0c91edfb-11bd-49a9-ab4d-398c25db31d8"
+	type: "player"
+	player_name: "AdosianFury"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "AdosianFury"
+		"ftbteams:description": ""
+		"ftbteams:color": "#E0FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

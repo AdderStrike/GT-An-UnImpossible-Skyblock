@@ -197,6 +197,11 @@
 			]
 			description: ["With this, I have some safety in placing this wherever! It is anchors well enough in the dirt to where I have something of a new platform. Hooray!"]
 			id: "75B13869C47374EF"
+			rewards: [{
+				id: "4DF47AC982B5FFF8"
+				item: "minecraft:chest"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{

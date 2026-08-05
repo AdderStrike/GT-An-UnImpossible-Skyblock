@@ -26,12 +26,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getItem |  |  | ItemStack | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
-| getFacing |  |  | Direction | ✘ |
 | getHand |  |  | InteractionHand | ✘ |
-| getPlayer |  |  | Player | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
+| getFacing |  |  | Direction | ✘ |
 | addGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
 | removeGameStage | String |  | void | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
 | exit | Object |  | Object | ✘ |
@@ -59,23 +59,14 @@ The block that was right clicked.
 The player that right clicked the block.
 ```
 
-- `Direction getFacing()`
-```
-The face of the block being right clicked.
-```
-
 - `InteractionHand getHand()`
 ```
 The hand that was used to right click the block.
 ```
 
-- `boolean hasGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
+- `Direction getFacing()`
 ```
-Checks if the player has the specified game stage
+The face of the block being right clicked.
 ```
 
 - `void addGameStage(String var0)`
@@ -85,6 +76,15 @@ Checks if the player has the specified game stage
 
 ```
 Adds the specified game stage to the player
+```
+
+- `boolean hasGameStage(String var0)`
+
+  Parameters:
+  - var0: String
+
+```
+Checks if the player has the specified game stage
 ```
 
 - `void removeGameStage(String var0)`

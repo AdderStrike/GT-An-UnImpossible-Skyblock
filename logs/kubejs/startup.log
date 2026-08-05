@@ -1,23 +1,23 @@
-[22:20:33] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
-[22:20:33] [INIT] Loaded plugins:
-[22:20:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[22:20:33] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[22:20:33] [INIT] - com.almostreliable.morejs.Plugin
-[22:20:33] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[22:20:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[22:20:33] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[22:20:33] [INIT] - com.probejs.ProbeJSPlugin
-[22:20:33] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
-[22:20:33] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[22:20:33] [INIT] - com.rubenverg.moldraw.kubejs.MolDrawKJSPlugin
-[22:20:33] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[22:20:35] [INFO] gregStartup.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey'
-[22:20:35] [INFO] gregStartup.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.ToolProperty'
-[22:20:35] [INFO] gregStartup.js#7: Loaded Java class 'com.gregtechceu.gtceu.api.fluids.FluidBuilder'
-[22:20:35] [INFO] gregStartup.js#8: Loaded Java class 'net.minecraft.core.registries.BuiltInRegistries'
-[22:20:35] [INFO] gregStartup.js#285: Hello, World! (Loaded startup scripts)
-[22:20:35] [INFO] Loaded script startup_scripts:gregStartup.js in 0.109 s
-[22:20:35] [INFO] Loaded script startup_scripts:itemStartup.js in 0.003 s
-[22:20:35] [INFO] Loaded script startup_scripts:recipeSimplify.js in 0.001 s
-[22:20:35] [INFO] Loaded 3/3 KubeJS startup scripts in 2.01 s with 0 errors and 0 warnings
-[22:21:08] [INFO] gregStartup.js#210: Yo, items are modified!
+[18:37:46] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[18:37:46] [INIT] Loaded plugins:
+[18:37:46] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:37:46] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:37:46] [INIT] - com.almostreliable.morejs.Plugin
+[18:37:46] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[18:37:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[18:37:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[18:37:46] [INIT] - com.probejs.ProbeJSPlugin
+[18:37:46] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
+[18:37:46] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[18:37:46] [INIT] - com.rubenverg.moldraw.kubejs.MolDrawKJSPlugin
+[18:37:46] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:37:49] [INFO] gregStartup.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.PropertyKey'
+[18:37:49] [INFO] gregStartup.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.ToolProperty'
+[18:37:49] [INFO] gregStartup.js#7: Loaded Java class 'com.gregtechceu.gtceu.api.fluids.FluidBuilder'
+[18:37:49] [INFO] gregStartup.js#8: Loaded Java class 'net.minecraft.core.registries.BuiltInRegistries'
+[18:37:49] [INFO] gregStartup.js#289: Hello, World! (Loaded startup scripts)
+[18:37:49] [INFO] Loaded script startup_scripts:gregStartup.js in 0.154 s
+[18:37:49] [INFO] Loaded script startup_scripts:itemStartup.js in 0.003 s
+[18:37:49] [INFO] Loaded script startup_scripts:recipeSimplify.js in 0.001 s
+[18:37:49] [INFO] Loaded 3/3 KubeJS startup scripts in 2.621 s with 0 errors and 0 warnings
+[18:38:38] [INFO] gregStartup.js#214: Yo, items are modified!

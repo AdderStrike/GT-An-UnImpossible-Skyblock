@@ -1,130 +1,123 @@
-[22:21:26] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
-[22:21:26] [INIT] Loaded plugins:
-[22:21:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[22:21:26] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[22:21:26] [INIT] - com.almostreliable.morejs.Plugin
-[22:21:26] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[22:21:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
-[22:21:26] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[22:21:26] [INIT] - com.probejs.ProbeJSPlugin
-[22:21:26] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
-[22:21:26] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
-[22:21:26] [INIT] - com.rubenverg.moldraw.kubejs.MolDrawKJSPlugin
-[22:21:26] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[22:21:26] [INFO] Loaded script server_scripts:basicStartup.js in 0.002 s
-[22:21:26] [INFO] chapter1.js#148: Hello, World! (Loaded server scripts)
-[22:21:26] [INFO] Loaded script server_scripts:chapter1.js in 0.004 s
-[22:21:26] [INFO] Loaded script server_scripts:chapter2.js in 0.002 s
-[22:21:26] [INFO] Loaded script server_scripts:chapter3.js in 0.001 s
-[22:21:26] [INFO] Loaded script server_scripts:chapter5.js in 0.002 s
-[22:21:26] [INFO] Loaded script server_scripts:chapter6.js in 0.001 s
-[22:21:26] [INFO] Loaded script server_scripts:kineticBlockServerSide.js in 0.003 s
-[22:21:26] [INFO] Loaded script server_scripts:oilWorks.js in 0.001 s
-[22:21:26] [INFO] Loaded script server_scripts:oreTree.js in 0.001 s
-[22:21:26] [INFO] Loaded script server_scripts:organicSolution.js in 0.001 s
-[22:21:26] [INFO] Loaded script server_scripts:tagMakerANDTagBreaker.js in 0.002 s
-[22:21:26] [INFO] Loaded script server_scripts:virtualSpaceMachine_recipes.js in 0.0 s
-[22:21:26] [INFO] Loaded 12/12 KubeJS server scripts in 0.042 s with 0 errors and 0 warnings
-[22:21:26] [INFO] Scripts loaded
-[22:21:26] [INFO] Initializing recipe event...
-[22:21:29] [INFO] [minecraft:block] Found 1386 tags, added 49 objects, removed 0 objects
-[22:21:29] [INFO] [minecraft:item] Found 6568 tags, added 557 objects, removed 136 objects
-[22:21:30] [INFO] Processing recipes...
-[22:21:31] [WARN] Failed to parse recipe 'pamhc2foodcore:caramelcupcakeitem_x4[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:21:31] [WARN] Failed to parse recipe 'miners_delight:insect_wrap[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:21:31] [WARN] Failed to parse recipe 'pamhc2foodcore:melonpieitem[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:21:31] [WARN] Failed to parse recipe 'miners_delight:vegan_wrap[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:21:32] [WARN] Failed to parse recipe 'miners_delight:vegan_steak_and_potatoes[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:21:32] [WARN] Failed to parse recipe 'pamhc2foodcore:honeymuffinitem[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
-[22:21:32] [INFO] Found 56530 recipes in 2.314 s
-[22:21:33] [ERROR] ! Error in 'ServerEvents.recipes': Invalid TagPrefix: compressium
-[22:21:33] [ERROR] ! java.lang.IllegalArgumentException: Invalid TagPrefix: compressium
-[22:21:33] [ERROR] !   at com.gregtechceu.gtceu.api.data.chemical.material.stack.MaterialEntry.of(MaterialEntry.java:59)
-[22:21:33] [ERROR] !   at …rhino.util.wrap.TypeWrapperFactory$Simple.wrap(TypeWrapperFactory.java:15)
-[22:21:33] [ERROR] !   at …rhino.NativeJavaObject.coerceTypeImpl(NativeJavaObject.java:268)
-[22:21:33] [ERROR] !   at …rhino.Context.jsToJava(Context.java:237)
-[22:21:33] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:430)
-[22:21:33] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
-[22:21:33] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
-[22:21:33] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
-[22:21:33] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[22:21:33] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
-[22:21:33] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
-[22:21:33] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[22:21:33] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
-[22:21:33] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[22:21:33] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
-[22:21:33] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
-[22:21:33] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy95.onEvent(Unknown Source)
-[22:21:33] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
-[22:21:33] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
-[22:21:33] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
-[22:21:33] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
-[22:21:33] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:189)
-[22:21:33] [ERROR] !   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:359)
-[22:21:33] [ERROR] !   at net.minecraft.world.item.crafting.RecipeManager.handler$blc000$customRecipesHead(RecipeManager.java:4531)
-[22:21:33] [ERROR] !   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
-[22:21:33] [ERROR] !   at com.recipeessentials.recipecache.RecipeManager.m_5787_(RecipeManager.java:236)
-[22:21:33] [ERROR] !   at com.recipeessentials.recipecache.RecipeManager.m_5787_(RecipeManager.java:22)
-[22:21:33] [ERROR] !   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-[22:21:33] [ERROR] !   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-[22:21:33] [ERROR] !   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-[22:21:33] [ERROR] !   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-[22:21:33] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
-[22:21:33] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-[22:21:33] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
-[22:21:33] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_246486_(WorldOpenFlows.java:163)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_233122_(WorldOpenFlows.java:113)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:181)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_233145_(WorldOpenFlows.java:169)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.m_233133_(WorldOpenFlows.java:65)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101744_(WorldSelectionList.java:575)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_101704_(WorldSelectionList.java:474)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.m_6375_(WorldSelectionList.java:413)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.components.AbstractSelectionList.m_6375_(AbstractSelectionList.java:298)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.components.events.ContainerEventHandler.m_6375_(ContainerEventHandler.java:38)
-[22:21:33] [ERROR] !   at net.minecraft.client.MouseHandler.m_168084_(MouseHandler.java:92)
-[22:21:33] [ERROR] !   at net.minecraft.client.gui.screens.Screen.m_96579_(Screen.java:437)
-[22:21:33] [ERROR] !   at net.minecraft.client.MouseHandler.m_91530_(MouseHandler.java:89)
-[22:21:33] [ERROR] !   at net.minecraft.client.MouseHandler.m_168091_(MouseHandler.java:189)
-[22:21:33] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:102)
-[22:21:33] [ERROR] !   at net.minecraft.client.MouseHandler.m_91565_(MouseHandler.java:188)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.1+7/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/org.lwjgl@3.3.1+7/org.lwjgl.system.JNI.invokeV(Native Method)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.1+7/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474)
-[22:21:33] [ERROR] !   at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:237)
-[22:21:33] [ERROR] !   at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1173)
-[22:21:33] [ERROR] !   at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718)
-[22:21:33] [ERROR] !   at net.minecraft.client.main.Main.main(Main.java:218)
-[22:21:33] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:569)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.20/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-[22:21:33] [ERROR] !   at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-[22:21:33] [ERROR] !   at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
-[22:21:33] [INFO] Posted recipe events in 797.5 ms
-[22:21:33] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/white_lavender[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:white_lavender"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:white_dye"},{"chance":0.05,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:white_lavender'
-[22:21:33] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/cryptic_redstone_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:cryptic_redstone_ore"}],"processingTime":250,"results":[{"count":6,"item":"minecraft:redstone"},{"chance":0.5,"item":"minecraft:redstone"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:cryptic_stone"}]}: Unknown item 'biomeswevegone:cryptic_redstone_ore'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/torch_ginger[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:torch_ginger"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:red_dye"},{"chance":0.1,"item":"minecraft:green_dye"}]}: Unknown item 'biomeswevegone:torch_ginger'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/orchid[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:orchid"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:pink_dye"},{"chance":0.05,"item":"minecraft:white_dye"}]}: Unknown item 'biomeswevegone:orchid'
-[22:21:34] [WARN] Error parsing recipe create:pressing/compat/biomeswevegone/lush_grass_path[create:pressing]: {"type":"create:pressing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:lush_grass"}],"results":[{"item":"biomeswevegone:lush_grass_path"}]}: Unknown item 'biomeswevegone:lush_grass'
-[22:21:34] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/brimstone_nether_gold_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:brimstone_nether_gold_ore"}],"processingTime":350,"results":[{"count":18,"item":"minecraft:gold_nugget"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:brimstone"}]}: Unknown item 'biomeswevegone:brimstone_nether_gold_ore'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/compat/biomeswevegone/winter_cyclamen[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:compat/biomeswevegone/winter_cyclamen"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:cyan_dye"},{"chance":0.1,"item":"minecraft:green_dye"}]}: Unknown item 'biomeswevegone:compat/biomeswevegone/winter_cyclamen'
-[22:21:34] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/blue_nether_gold_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:blue_nether_gold_ore"}],"processingTime":350,"results":[{"count":18,"item":"minecraft:gold_nugget"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:blue_netherrack"}]}: Unknown item 'biomeswevegone:blue_nether_gold_ore'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/tiny_cactus[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:tiny_cactus"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:green_dye"},{"chance":0.1,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:tiny_cactus'
-[22:21:34] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/brimstone_nether_quartz_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:brimstone_nether_quartz_ore"}],"processingTime":350,"results":[{"count":2,"item":"minecraft:quartz"},{"chance":0.25,"item":"minecraft:quartz"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:brimstone"}]}: Unknown item 'biomeswevegone:brimstone_nether_quartz_ore'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/lolipop_flower[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:lolipop_flower"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:yellow_dye"},{"chance":0.25,"item":"minecraft:yellow_dye"},{"chance":0.05,"item":"minecraft:green_dye"}]}: Unknown item 'biomeswevegone:lolipop_flower'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/purple_rose[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:purple_rose"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:purple_dye"},{"chance":0.1,"item":"minecraft:magenta_dye"}]}: Unknown item 'biomeswevegone:purple_rose'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/tall_white_lavender[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:tall_white_lavender"}],"processingTime":50,"results":[{"count":3,"item":"minecraft:white_dye"},{"chance":0.25,"count":2,"item":"minecraft:light_blue_dye"},{"chance":0.05,"count":2,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:tall_white_lavender'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/compat/biomeswevegone/white_sage[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:compat/biomeswevegone/white_sage"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:white_dye"},{"chance":0.1,"item":"minecraft:gray_dye"}]}: Unknown item 'biomeswevegone:compat/biomeswevegone/white_sage'
-[22:21:34] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/blue_nether_quartz_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:blue_nether_quartz_ore"}],"processingTime":350,"results":[{"count":2,"item":"minecraft:quartz"},{"chance":0.25,"item":"minecraft:quartz"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:blue_netherrack"}]}: Unknown item 'biomeswevegone:blue_nether_quartz_ore'
-[22:21:34] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/endbloom[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:endbloom"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:light_gray_dye"}]}: Unknown item 'biomesoplenty:endbloom'
-[22:21:36] [INFO] Added 45 recipes, removed 55 recipes, modified 7 recipes, with 16 failed recipes in 2.737 s
-[22:21:40] [INFO] Server resource reload complete!
+[18:47:06] [INIT] KubeJS 2001.6.5-build.26; MC 2001 forge
+[18:47:06] [INIT] Loaded plugins:
+[18:47:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[18:47:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[18:47:06] [INIT] - com.almostreliable.morejs.Plugin
+[18:47:06] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[18:47:06] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[18:47:06] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[18:47:06] [INIT] - com.probejs.ProbeJSPlugin
+[18:47:06] [INIT] - com.bobvarioa.kubejsbotanypots.KubeJSBotanyPotsPlugin
+[18:47:06] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[18:47:06] [INIT] - com.rubenverg.moldraw.kubejs.MolDrawKJSPlugin
+[18:47:06] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[18:47:06] [INFO] Loaded script server_scripts:basicStartup.js in 0.004 s
+[18:47:06] [INFO] chapter1.js#177: Hello, World! (Loaded server scripts)
+[18:47:06] [INFO] Loaded script server_scripts:chapter1.js in 0.002 s
+[18:47:06] [INFO] Loaded script server_scripts:chapter2.js in 0.001 s
+[18:47:06] [INFO] Loaded script server_scripts:chapter3.js in 0.001 s
+[18:47:06] [INFO] Loaded script server_scripts:chapter5.js in 0.001 s
+[18:47:06] [INFO] Loaded script server_scripts:chapter6.js in 0.0 s
+[18:47:06] [INFO] Loaded script server_scripts:kineticBlockServerSide.js in 0.001 s
+[18:47:06] [INFO] Loaded script server_scripts:oilWorks.js in 0.001 s
+[18:47:06] [INFO] Loaded script server_scripts:oreTree.js in 0.001 s
+[18:47:06] [INFO] Loaded script server_scripts:organicSolution.js in 0.0 s
+[18:47:06] [INFO] Loaded script server_scripts:tagMakerANDTagBreaker.js in 0.002 s
+[18:47:06] [INFO] Loaded script server_scripts:virtualSpaceMachine_recipes.js in 0.001 s
+[18:47:06] [INFO] Loaded 12/12 KubeJS server scripts in 0.033 s with 0 errors and 0 warnings
+[18:47:06] [INFO] Scripts loaded
+[18:47:06] [INFO] Initializing recipe event...
+[18:47:07] [INFO] [minecraft:block] Found 1386 tags, added 49 objects, removed 0 objects
+[18:47:07] [INFO] [minecraft:item] Found 6571 tags, added 557 objects, removed 136 objects
+[18:47:08] [INFO] Processing recipes...
+[18:47:08] [WARN] Failed to parse recipe 'pamhc2foodcore:caramelcupcakeitem_x4[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[18:47:08] [WARN] Failed to parse recipe 'miners_delight:insect_wrap[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[18:47:08] [WARN] Failed to parse recipe 'pamhc2foodcore:melonpieitem[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[18:47:09] [WARN] Failed to parse recipe 'miners_delight:vegan_wrap[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[18:47:09] [WARN] Failed to parse recipe 'miners_delight:vegan_steak_and_potatoes[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[18:47:09] [WARN] Failed to parse recipe 'pamhc2foodcore:honeymuffinitem[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[18:47:09] [INFO] Found 56532 recipes in 1.411 s
+[18:47:10] [ERROR] ! Error in 'ServerEvents.recipes': Cannot invoke "com.gregtechceu.gtceu.api.data.chemical.material.stack.MaterialEntry.tagPrefix()" because "materialEntry" is null
+[18:47:10] [ERROR] ! java.lang.NullPointerException: Cannot invoke "com.gregtechceu.gtceu.api.data.chemical.material.stack.MaterialEntry.tagPrefix()" because "materialEntry" is null
+[18:47:10] [ERROR] !   at com.gregtechceu.gtceu.integration.kjs.recipe.GTRecipeSchema$GTRecipeJS.itemOutput(GTRecipeSchema.java:387)
+[18:47:10] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:569)
+[18:47:10] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
+[18:47:10] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
+[18:47:10] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
+[18:47:10] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
+[18:47:10] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[18:47:10] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:47:10] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
+[18:47:10] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[18:47:10] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:47:10] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
+[18:47:10] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
+[18:47:10] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[18:47:10] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[18:47:10] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy96.onEvent(Unknown Source)
+[18:47:10] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[18:47:10] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
+[18:47:10] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
+[18:47:10] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
+[18:47:10] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:189)
+[18:47:10] [ERROR] !   at …kubejs.recipe.RecipesEventJS.post(RecipesEventJS.java:359)
+[18:47:10] [ERROR] !   at net.minecraft.world.item.crafting.RecipeManager.handler$bln000$customRecipesHead(RecipeManager.java:4531)
+[18:47:10] [ERROR] !   at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java)
+[18:47:10] [ERROR] !   at com.recipeessentials.recipecache.RecipeManager.m_5787_(RecipeManager.java:236)
+[18:47:10] [ERROR] !   at com.recipeessentials.recipecache.RecipeManager.m_5787_(RecipeManager.java:22)
+[18:47:10] [ERROR] !   at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[18:47:10] [ERROR] !   at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[18:47:10] [ERROR] !   at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[18:47:10] [ERROR] !   at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[18:47:10] [ERROR] !   at net.minecraft.server.TickTask.run(TickTask.java:18)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345)
+[18:47:10] [ERROR] !   at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
+[18:47:10] [ERROR] !   at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53)
+[18:47:10] [ERROR] !   at MC-BOOTSTRAP/brigadier@1.1.8/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+[18:47:10] [ERROR] !   at net.minecraft.commands.Commands.m_242674_(Commands.java:257)
+[18:47:10] [ERROR] !   at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1250)
+[18:47:10] [ERROR] !   at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1227)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+[18:47:10] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[18:47:10] [ERROR] !   at net.minecraft.server.TickTask.run(TickTask.java:18)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[18:47:10] [ERROR] !   at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$251(MinecraftServer.java)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.wrapOperation$zdh000$managedBlock(MinecraftServer.java:1856)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+[18:47:10] [ERROR] !   at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[18:47:10] [ERROR] !   at java.lang.Thread.run(Thread.java:840)
+[18:47:10] [INFO] Posted recipe events in 407.9 ms
+[18:47:10] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/brimstone_nether_gold_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:brimstone_nether_gold_ore"}],"processingTime":350,"results":[{"count":18,"item":"minecraft:gold_nugget"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:brimstone"}]}: Unknown item 'biomeswevegone:brimstone_nether_gold_ore'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/compat/biomeswevegone/winter_cyclamen[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:compat/biomeswevegone/winter_cyclamen"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:cyan_dye"},{"chance":0.1,"item":"minecraft:green_dye"}]}: Unknown item 'biomeswevegone:compat/biomeswevegone/winter_cyclamen'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/white_lavender[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:white_lavender"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:white_dye"},{"chance":0.05,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:white_lavender'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/orchid[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:orchid"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:pink_dye"},{"chance":0.05,"item":"minecraft:white_dye"}]}: Unknown item 'biomeswevegone:orchid'
+[18:47:10] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/cryptic_redstone_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:cryptic_redstone_ore"}],"processingTime":250,"results":[{"count":6,"item":"minecraft:redstone"},{"chance":0.5,"item":"minecraft:redstone"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:cryptic_stone"}]}: Unknown item 'biomeswevegone:cryptic_redstone_ore'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/torch_ginger[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:torch_ginger"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:red_dye"},{"chance":0.1,"item":"minecraft:green_dye"}]}: Unknown item 'biomeswevegone:torch_ginger'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/purple_rose[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:purple_rose"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:purple_dye"},{"chance":0.1,"item":"minecraft:magenta_dye"}]}: Unknown item 'biomeswevegone:purple_rose'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/compat/biomeswevegone/white_sage[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:compat/biomeswevegone/white_sage"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:white_dye"},{"chance":0.1,"item":"minecraft:gray_dye"}]}: Unknown item 'biomeswevegone:compat/biomeswevegone/white_sage'
+[18:47:10] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/blue_nether_gold_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:blue_nether_gold_ore"}],"processingTime":350,"results":[{"count":18,"item":"minecraft:gold_nugget"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:blue_netherrack"}]}: Unknown item 'biomeswevegone:blue_nether_gold_ore'
+[18:47:10] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/brimstone_nether_quartz_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:brimstone_nether_quartz_ore"}],"processingTime":350,"results":[{"count":2,"item":"minecraft:quartz"},{"chance":0.25,"item":"minecraft:quartz"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:brimstone"}]}: Unknown item 'biomeswevegone:brimstone_nether_quartz_ore'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/endbloom[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:endbloom"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:light_gray_dye"}]}: Unknown item 'biomesoplenty:endbloom'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomeswevegone/lolipop_flower[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:lolipop_flower"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:yellow_dye"},{"chance":0.25,"item":"minecraft:yellow_dye"},{"chance":0.05,"item":"minecraft:green_dye"}]}: Unknown item 'biomeswevegone:lolipop_flower'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/tall_white_lavender[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:tall_white_lavender"}],"processingTime":50,"results":[{"count":3,"item":"minecraft:white_dye"},{"chance":0.25,"count":2,"item":"minecraft:light_blue_dye"},{"chance":0.05,"count":2,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:tall_white_lavender'
+[18:47:10] [WARN] Error parsing recipe create:pressing/compat/biomeswevegone/lush_grass_path[create:pressing]: {"type":"create:pressing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:lush_grass"}],"results":[{"item":"biomeswevegone:lush_grass_path"}]}: Unknown item 'biomeswevegone:lush_grass'
+[18:47:10] [WARN] Error parsing recipe create:milling/compat/biomesoplenty/tiny_cactus[create:milling]: {"type":"create:milling","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:tiny_cactus"}],"processingTime":50,"results":[{"count":2,"item":"minecraft:green_dye"},{"chance":0.1,"item":"minecraft:green_dye"}]}: Unknown item 'biomesoplenty:tiny_cactus'
+[18:47:10] [WARN] Error parsing recipe create:crushing/compat/biomeswevegone/blue_nether_quartz_ore[create:crushing]: {"type":"create:crushing","conditions":[{"type":"forge:mod_loaded","modid":"biomeswevegone"}],"ingredients":[{"item":"biomeswevegone:blue_nether_quartz_ore"}],"processingTime":350,"results":[{"count":2,"item":"minecraft:quartz"},{"chance":0.25,"item":"minecraft:quartz"},{"chance":0.75,"item":"create:experience_nugget"},{"chance":0.125,"item":"biomeswevegone:blue_netherrack"}]}: Unknown item 'biomeswevegone:blue_nether_quartz_ore'
+[18:47:12] [INFO] Added 49 recipes, removed 55 recipes, modified 7 recipes, with 16 failed recipes in 1.956 s
+[18:47:12] [INFO] Server resource reload complete!
