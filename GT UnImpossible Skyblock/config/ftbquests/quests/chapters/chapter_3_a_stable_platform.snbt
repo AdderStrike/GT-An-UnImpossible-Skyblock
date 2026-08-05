@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3_a_stable_platform"
+	group: "52588E30EF4CD35C"
+	icon: "minecraft:farmland"
+	id: "2D659135820C84D1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0245DC10C643F3DF"]
+			description: [
+				"Idek how, but through all of your grinding you got a hoe. Thats great news, but its time to get water and an easier way to get dirt."
+				""
+				"Im gonna call that the seeds you may have gotten are going to be useful."
+			]
+			id: "1DD75A1E9B0448BC"
+			tasks: [{
+				id: "2856FF4084F33790"
+				type: "checkmark"
+			}]
+			title: "Wait you got tools???"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DD75A1E9B0448BC"]
+			description: [
+				"That's great news! However, we need the wheat side of things. So its great news that we can use fertilizer! That's right, fertilizer can be made!"
+				""
+				"Just be careful with it, the plants don't always react positively."
+			]
+			id: "13EDF77799FC7B9C"
+			rewards: [
+				{
+					count: 8
+					id: "550BDA2FDC0B0FE1"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3B66255F1F2DEFF4"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "351EC1924E593ED9"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "662B6CADE732EBE6"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			title: "Life!"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13EDF77799FC7B9C"]
+			description: ["Now that we have actual plants (even though its only one), we can make dirt much faster!"]
+			id: "214226E8555095D0"
+			tasks: [{
+				id: "6E21C6E208C15167"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "A Better Way"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13EDF77799FC7B9C"]
+			description: [
+				"You... are going to crossbreed the crops??? Without water???"
+				""
+				"Agricraft can't possibly be that useful now...right?"
+				""
+				"Cue evil laughter."
+			]
+			id: "1B110328DC721623"
+			tasks: [{
+				id: "42DF7F6D6B945E3F"
+				item: "agricraft:wooden_crop_sticks"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B110328DC721623"]
+			description: [
+				"Yep, you read that right. This is the only source of wood, but you need a crafting table to make wood."
+				""
+				"Which needs wood."
+				""
+				"Don't worry about that for now."
+			]
+			id: "244AAD0F610F5478"
+			tasks: [{
+				id: "6A3CD54B312800A2"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			title: "The only source of wood"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["244AAD0F610F5478"]
+			description: [
+				"Here's the catch with this bucket. Its a one-time use for ANY liquid. We can get better recipes later."
+				""
+				"If you're asking where the recipe is, look up uses for bamboo. :)"
+			]
+			id: "6436DBE7C06A8E0E"
+			tasks: [{
+				id: "50A1B70F74F933B8"
+				item: {
+					Count: 1
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "A way to move water"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["214226E8555095D0"]
+			description: ["So it turns out that if you shift-right click dirt with wheat, barley, or rye, you get muddy dirt. This turns to mud when you put flour in the muddy dirt while it rains. Getting flour for now is breaking wheat, barley, or rye with a flint."]
+			icon: "minecraft:mud"
+			id: "6C6129049C26FBD1"
+			tasks: [
+				{
+					id: "44C7EFBBFBA08567"
+					item: "rechiseled:dirt_muddy"
+					type: "item"
+				}
+				{
+					id: "0CDAF7B16DFCA4CC"
+					item: "minecraft:mud"
+					type: "item"
+				}
+				{
+					id: "0BE44AFAC7184BD0"
+					item: "minecraft:packed_mud"
+					type: "item"
+				}
+				{
+					id: "2043E35845C49217"
+					item: "minecraft:mud_bricks"
+					type: "item"
+				}
+			]
+			title: "Ewww"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6C6129049C26FBD1"
+				"6436DBE7C06A8E0E"
+			]
+			description: [
+				"So, you finally made it to water! This multiblock can hold one bucket maximum. You're welcome."
+				""
+				"Oh, and water is NOT infinite until you have an infinite drainer from create. Enjoy!"
+			]
+			id: "11BA3302BE204BE3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "47F6CFB8B1EAD8CD"
+				item: "gtceu:primitive_water_catcher"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+	]
+	title: "Chapter 3: A Stable Platform"
+}

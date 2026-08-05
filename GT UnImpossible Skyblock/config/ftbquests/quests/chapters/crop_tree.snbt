@@ -1,0 +1,2084 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crop_tree"
+	group: "497A652402E96D67"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:oak_sapling"
+	id: "0868DC7B89D729DD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the circle of life for plants! With only hardy seeds, you can get wheat, but you'll need way more than that! Remember that linked plants can mutate into other plants, regardless of arrows! The arrows are only for progress, but given a single plant, you can grow anything using this!"
+				""
+				"To prove you know what you're doing, quests only take products of the crops, not the seeds themselves."
+			]
+			id: "7375F97F121F0140"
+			tasks: [{
+				id: "0A85313F9E92AD94"
+				title: "The Tree of Life"
+				type: "checkmark"
+			}]
+			title: "The Circle of Life"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7375F97F121F0140"]
+			description: ["The only crop to be gotten by the dirt. You'll have to breed everything else."]
+			hide_dependency_lines: true
+			id: "1886D9F8C4D9090F"
+			tasks: [{
+				id: "23D2669CD22FF603"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1886D9F8C4D9090F"]
+			description: ["Welcome to the wheat tribe! In a tribe, crossbreeding with other crops of the same tribe can expand what the tribe has. Here, the main food is grains. There are 3 crops to gather. The main link to the rest of the grasses is wheat."]
+			id: "3FE757D272188950"
+			tasks: [{
+				id: "4C53C39F276229A1"
+				title: "The Wheat Tribe"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3FE757D272188950"]
+			id: "101AC7379267B453"
+			tasks: [{
+				id: "003B04B37EA4729D"
+				item: "pamhc2crops:barleyitem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3FE757D272188950"]
+			id: "53FC69361363BD1D"
+			tasks: [{
+				id: "6ED7F333FBE95A5F"
+				item: "pamhc2crops:ryeitem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3FE757D272188950"]
+			description: [
+				"Welcome to the grains set! Almost all plants are still grains, but the diversity spreads a lot. Each set has a main plant (wheat here). Once you get the main plant, you can crossbreed them with them selves to have a small chance to get into a different part of the set."
+				""
+				"There are 6 tribes with a total of 11 plants."
+			]
+			id: "52043393FCDE5853"
+			tasks: [{
+				id: "2681F6A36F486AD9"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "The Wheat Set"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["52043393FCDE5853"]
+			description: ["Welcome to the stalked grains tribe! Here, the main plant is sugar cane. There are three plants to get here."]
+			id: "752AE75E69B6B873"
+			tasks: [{
+				id: "6CC8905086E301E8"
+				title: "The Stalked Grains Tribe"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["752AE75E69B6B873"]
+			id: "03E2C6C5AA38298E"
+			tasks: [{
+				id: "4B0942F409868DE2"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["752AE75E69B6B873"]
+			id: "5FD30B6847DF18ED"
+			tasks: [{
+				id: "190EAFA336ABA586"
+				item: "pamhc2crops:sorghumitem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["752AE75E69B6B873"]
+			id: "7965C5422556566C"
+			tasks: [{
+				id: "117BBA14593ED414"
+				item: "pamhc2crops:cornitem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["52043393FCDE5853"]
+			description: [
+				"If there is only one member, quests get combined."
+				""
+				"Welcome to the bamboo tribe! There is only one member: Bamboo."
+			]
+			id: "5A23C06D70EFE771"
+			tasks: [{
+				id: "2C70AC2EFEB77F6B"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			title: "The Bamboo Tribe"
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["52043393FCDE5853"]
+			description: ["This plant has no tribe. :("]
+			id: "2099C52CF0326A2F"
+			tasks: [{
+				id: "394EA319D15468AB"
+				item: "pamhc2crops:milletitem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["52043393FCDE5853"]
+			description: ["Welcome to the oats tribe! There is only one plant: Oats."]
+			id: "03D455943CA13103"
+			tasks: [{
+				id: "7CF950F001BDCDF6"
+				item: "pamhc2crops:oatsitem"
+				type: "item"
+			}]
+			title: "The Oats Tribe"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["52043393FCDE5853"]
+			description: [
+				"Welcome to the rice tribe! There is only one* plant: rice!"
+				""
+				"*: Farmer's delight crops are genetically modified crops for later and therefore are not counted."
+			]
+			id: "7E2135F4096D46A7"
+			tasks: [{
+				id: "6D3E2DB3B1914F5F"
+				item: "pamhc2crops:riceitem"
+				type: "item"
+			}]
+			title: "The Rice Tribe!"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["52043393FCDE5853"]
+			description: [
+				"Welcome to the order of wheat! The main plant is wheat."
+				""
+				"At the order level, the main plant can crossbreed with other plants in its order to produce other parts of the order or even beyond!"
+				""
+				"There are 4 sets with a total of 14 plants."
+			]
+			id: "3A15608A5EE824C2"
+			tasks: [{
+				id: "678D731C1E5EB2DF"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "The Order of Wheat"
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A15608A5EE824C2"]
+			description: ["Welcome to the cattail set! There is only one plant: Cattail."]
+			id: "47C7EF66B530AD4B"
+			tasks: [{
+				id: "3F593CEB09400AEC"
+				item: "pamhc2crops:cattailitem"
+				type: "item"
+			}]
+			title: "The Cattail Set"
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3A15608A5EE824C2"]
+			description: ["Welcome to the papyrus set! There is only one plant: Papyrus."]
+			id: "3155DD2D5C73F976"
+			tasks: [{
+				id: "08ECF851A4C5B84A"
+				item: "pamhc2crops:papyrusitem"
+				type: "item"
+			}]
+			title: "The Papyrus Set"
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3A15608A5EE824C2"]
+			description: ["Welcome to the Pineapple Set! There is only one plant: Pineapple."]
+			id: "2CE1E86D181B31FD"
+			tasks: [{
+				id: "0667366A50F2E1FE"
+				item: "pamhc2crops:pineappleitem"
+				type: "item"
+			}]
+			title: "The Pineapple Set"
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A15608A5EE824C2"]
+			description: ["Welcome to the order of Asparagus! The main plant is asparagus. There are 4 sets with 12 plants in total."]
+			hide_dependency_lines: true
+			id: "3AA5934F487240BC"
+			tasks: [{
+				id: "0033AC8B591C17E1"
+				item: "pamhc2crops:asparagusitem"
+				type: "item"
+			}]
+			title: "The Order of Asparagus"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3AA5934F487240BC"]
+			description: ["Welcome to the Asparagus Set! The main plant is Asparagus. There is one tribe and 5 plants to find."]
+			id: "4C72444BEA732731"
+			tasks: [{
+				id: "75493DDECB7DABA0"
+				item: "pamhc2crops:asparagusitem"
+				type: "item"
+			}]
+			title: "The Asparagus Set"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C72444BEA732731"]
+			description: ["The main plant surprisingly does not have a tribe. :("]
+			id: "2571E74514065A65"
+			tasks: [{
+				id: "0F51FD73962B2DD8"
+				item: "pamhc2crops:asparagusitem"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F6EED53DBD0D322"]
+			id: "7E16FB3093E05C72"
+			tasks: [{
+				id: "5AC45619BC54D247"
+				item: "pamhc2crops:agaveitem"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F6EED53DBD0D322"]
+			id: "76AF7E4311FFEBEC"
+			tasks: [{
+				id: "3F6DAE9CA82D455F"
+				item: "pamhc2crops:sisalitem"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C72444BEA732731"]
+			description: ["Welcome to the Agave tribe! The main plant is agave. There are two plants to find here."]
+			id: "0F6EED53DBD0D322"
+			tasks: [{
+				id: "6D166A4152843173"
+				title: "The Agave Tribe!"
+				type: "checkmark"
+			}]
+			title: "The Agave Tribe"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C72444BEA732731"]
+			description: ["This plant does not have a tribe. :("]
+			id: "1ED6FDD5118569FC"
+			tasks: [{
+				id: "40D1CE08D6E534BA"
+				item: "pamhc2crops:yuccaitem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C72444BEA732731"]
+			description: ["This plant does not have a tribe. :("]
+			id: "211499CEDD09225B"
+			tasks: [{
+				id: "78598F13BDE8B12B"
+				item: "minecraft:lily_of_the_valley"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AA5934F487240BC"]
+			description: [
+				"Welcome to the Allium Set! The main plant is allium. There is one tribe and 5 plants to find."
+				""
+				"Welcome to the Allium Tribe! The main plant is allium. There are 5 plants to find."
+				""
+				"Why do I feel like I just went through deja vu?"
+			]
+			id: "17EA3B6518F651E7"
+			tasks: [{
+				id: "5B21CD503BD88D19"
+				item: "minecraft:allium"
+				type: "item"
+			}]
+			title: "The Allium Set and the Allium Tribe"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["17EA3B6518F651E7"]
+			id: "7B81FF96D13D4C8D"
+			tasks: [{
+				id: "514C6CBC7579A4D3"
+				item: "minecraft:allium"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["17EA3B6518F651E7"]
+			id: "5A1FDBB9CE4B132E"
+			tasks: [{
+				id: "32F4FF50ABC80455"
+				item: "pamhc2crops:garlicitem"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17EA3B6518F651E7"]
+			id: "166BFF9D0171EE71"
+			tasks: [{
+				id: "5DF43D3A38C09CFC"
+				item: "pamhc2crops:leekitem"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17EA3B6518F651E7"]
+			id: "746C9D8B43075702"
+			tasks: [{
+				id: "65AA13E4FDC4D97C"
+				item: "pamhc2crops:onionitem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17EA3B6518F651E7"]
+			id: "0CF5E99FE4A5E243"
+			tasks: [{
+				id: "6DCEF49DF4522A30"
+				item: "pamhc2crops:scallionitem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3AA5934F487240BC"]
+			description: ["Welcome to the aloe set! There is only one plant: aloe."]
+			id: "42E84E6C9BE21C51"
+			tasks: [{
+				id: "70C590D46A9BDB72"
+				item: "pamhc2crops:aloeitem"
+				type: "item"
+			}]
+			title: "The Aloe Set"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3AA5934F487240BC"]
+			description: ["Welcome to the orchid set! There is only one plant: the Blue Orchid."]
+			id: "36BB8BE73AC8B8F4"
+			tasks: [{
+				id: "405AB0AF3E985913"
+				item: "minecraft:blue_orchid"
+				type: "item"
+			}]
+			title: "Welcome to the Orchid Set"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A15608A5EE824C2"]
+			description: ["Welcome to the order of ginger! The main plant is ginger. There are 2 plants to find."]
+			hide_dependency_lines: true
+			id: "6C09F8F04A806245"
+			tasks: [{
+				id: "7D5AEE09BE3D80FF"
+				item: "pamhc2crops:gingeritem"
+				type: "item"
+			}]
+			title: "The Order of Ginger"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C09F8F04A806245"]
+			id: "2704276866C4EED5"
+			tasks: [{
+				id: "1A55A114E7AD40E3"
+				item: "pamhc2crops:gingeritem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C09F8F04A806245"]
+			id: "213CEA3EBF60C40F"
+			tasks: [{
+				id: "0740BAA547A48839"
+				item: "pamhc2crops:arrowrootitem"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A15608A5EE824C2"]
+			description: ["Welcome to the order of seagrass! There is only one plant: sea grass."]
+			hide_dependency_lines: true
+			id: "7C953241644AD775"
+			tasks: [{
+				id: "0C1851F24E3CEF6C"
+				item: "minecraft:seagrass"
+				type: "item"
+			}]
+			title: "The Order of Seagrass"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A15608A5EE824C2"]
+			description: [
+				"Welcome to the order of the tulips! There are 4 plants to find."
+				""
+				"An exception was made due to finding out that there are more plants that can only bred from tulips for an odd reason. For that, this quest only requires one tulip to be completed."
+			]
+			hide_dependency_lines: true
+			id: "38FA9DE8841EA671"
+			tasks: [{
+				id: "547C30E8FF271C18"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tulips"
+					}
+				}
+				tags: ["tulips"]
+				title: "Any #forge:tulips"
+				type: "item"
+			}]
+			title: "The Order of the Tulip"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38FA9DE8841EA671"]
+			description: [
+				"Welcome to the spiceleaf set! There is one* plant available: spiceleaf."
+				""
+				"*: This plant is the necessary bridge to the other group of plants to grow. As for trees, you need berries first. Due to these complications, we dont know where this set is classified."
+			]
+			hide_dependency_lines: true
+			id: "436C30F2E4314D5A"
+			tasks: [{
+				id: "4FC2FF70BF6A60B3"
+				item: "pamhc2crops:spiceleafitem"
+				type: "item"
+			}]
+			title: "The Spiceleaf Set"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["436C30F2E4314D5A"]
+			description: ["Congratulations on making the jump! There are more plants over here."]
+			hide_dependency_lines: true
+			id: "7F599987283702D6"
+			tasks: [{
+				id: "30671E6F4185E206"
+				item: "pamhc2crops:tealeafitem"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F599987283702D6"]
+			description: ["Welcome to the order of the Kiwi! The main plant is the kiwi. There is one set and 5 plants to find!"]
+			id: "6F9F33D1BB1F1479"
+			tasks: [{
+				id: "26E66AA490E76C8A"
+				item: "pamhc2crops:kiwiitem"
+				type: "item"
+			}]
+			title: "The Order of the Kiwi"
+			x: 21.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: ["Surprisingly, the main plant isn't in a set or tribe. :("]
+			id: "349E64141DD870BC"
+			tasks: [{
+				id: "465208DE613320E6"
+				item: "pamhc2crops:kiwiitem"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the blueberry set! The main plant is blueberries. There is one tribe and 3 plants to find."
+				""
+				"Welcome to the blueberry tribe! The main plant is blueberries. There are 3 plants to find."
+				""
+				"I feel like deja vu just happened."
+			]
+			id: "6297819C6FAC3BC1"
+			tasks: [{
+				id: "2F76DFC65E6493D1"
+				item: "pamhc2crops:blueberryitem"
+				type: "item"
+			}]
+			title: "The Blueberry Set and the Blueberry Tribe"
+			x: 22.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6297819C6FAC3BC1"]
+			id: "4F7BB4E1ABB5FC84"
+			tasks: [{
+				id: "2D978B1C6EE8FF4A"
+				item: "pamhc2crops:blueberryitem"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6297819C6FAC3BC1"]
+			id: "2DF3A025C0CEB9B2"
+			tasks: [{
+				id: "3DA9A825A7FA942F"
+				item: "pamhc2crops:cranberryitem"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6297819C6FAC3BC1"]
+			id: "5F8BDEDB726FC4B8"
+			tasks: [{
+				id: "2BFF862FA255470E"
+				item: "pamhc2crops:huckleberryitem"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome! This place should have the rest of the small plants."
+				""
+				"If you're looking for big plants, it's suggested to finish this circle then go for juniperberries."
+			]
+			hide_dependency_lines: true
+			id: "42EFCECA560119FE"
+			tasks: [{
+				id: "346988542A59B1F5"
+				title: "The other circle"
+				type: "checkmark"
+			}]
+			title: "The Other Circle"
+			x: 31.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of cabbage! The main plant is cabbage. There is one set and 12 plants to find."
+				""
+				"Welcome to the set of cabbage! The main plant is cabbage. There are 3 tribes and 12 plants to find."
+				""
+				"Fun fact: Most plants here are actually just specialized hybrids of one another. You are more likely to get a plant in the same tribe because of this."
+			]
+			hide_dependency_lines: true
+			id: "2CE4E5CB120846E4"
+			tasks: [{
+				id: "2DAF06CDCB6EAF48"
+				item: "pamhc2crops:cabbageitem"
+				type: "item"
+			}]
+			title: "The Order of Cabbage"
+			x: 25.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2CE4E5CB120846E4"]
+			description: ["This plant is not in a tribe. :("]
+			id: "286A32E40504700C"
+			tasks: [{
+				id: "5D3E57E74178CA10"
+				item: "pamhc2crops:radishitem"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CE4E5CB120846E4"]
+			description: ["This plant is not in a tribe. :("]
+			id: "2FA9DCE15C44FA80"
+			tasks: [{
+				id: "6F3A2A7CE6E2393A"
+				item: "pamhc2crops:mustardseedsitem"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CE4E5CB120846E4"]
+			description: ["Welcome to the bok choy tribe! The main plant is bok choy. There are 2 plants to find."]
+			id: "77901455D1FE1976"
+			tasks: [{
+				id: "1B540240EFFA9990"
+				title: "The Bok Choy Tribe"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77901455D1FE1976"]
+			id: "1AF85609C22C703E"
+			tasks: [{
+				id: "11430C74D98303C2"
+				item: "pamhc2crops:bokchoyitem"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77901455D1FE1976"]
+			id: "45462A050B9B508B"
+			tasks: [{
+				id: "2B8880824E243FF4"
+				item: "pamhc2crops:turnipitem"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CE4E5CB120846E4"]
+			description: ["Welcome to the canola tribe! The main plain is canola. There are 2 plants to find."]
+			id: "00B5D99B2BA68DBF"
+			tasks: [{
+				id: "17D4D1185FB43A9D"
+				title: "The Canola Tribe"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00B5D99B2BA68DBF"]
+			id: "0E9DF658B0248ECE"
+			tasks: [{
+				id: "4489C8BE02D8B34F"
+				item: "pamhc2crops:canolaitem"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["00B5D99B2BA68DBF"]
+			id: "6B623BB855F847F5"
+			tasks: [{
+				id: "5D89B0BDBB16053C"
+				item: "pamhc2crops:rutabagaitem"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2CE4E5CB120846E4"]
+			description: ["Welcome to the cabbage tribe! The main plant is cabbage. There are 6 plants to find."]
+			id: "0915CC3EC455408B"
+			tasks: [{
+				id: "74AD6F89A8C0A3D7"
+				title: "The Cabbage Tribe"
+				type: "checkmark"
+			}]
+			x: 23.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0915CC3EC455408B"]
+			id: "2AAF1C410AF53AE1"
+			tasks: [{
+				id: "5CB4120FBAF74736"
+				item: "pamhc2crops:cabbageitem"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0915CC3EC455408B"]
+			id: "59BBAED2E547BE16"
+			tasks: [{
+				id: "1592C3CFF84F877E"
+				item: "pamhc2crops:broccoliitem"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0915CC3EC455408B"]
+			id: "1D6F2254E550FF0C"
+			tasks: [{
+				id: "50B39217E986E2F9"
+				item: "pamhc2crops:brusselsproutitem"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0915CC3EC455408B"]
+			id: "5F94FE92402FBC4E"
+			tasks: [{
+				id: "3DF9DE68CC8775E3"
+				item: "pamhc2crops:caulifloweritem"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0915CC3EC455408B"]
+			id: "171ED835014A50F1"
+			tasks: [{
+				id: "30219015C35CAA62"
+				item: "pamhc2crops:kaleitem"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0915CC3EC455408B"]
+			id: "0A8E369637BD420F"
+			tasks: [{
+				id: "008994479FDC98D6"
+				item: "pamhc2crops:kohlrabiitem"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of beans! The main plant for this order is the bean plant. There is one set and 8 plants to find!"
+				""
+				"Welcome to the set of beans! The main plant for this set is the bean plant. There are 5 tribes and 8 plants to find!"
+				""
+				"I feel like deja vu just happened..."
+			]
+			hide_dependency_lines: true
+			id: "52742200467FC388"
+			tasks: [{
+				id: "25FA8EDDE9EAED61"
+				item: "pamhc2crops:beanitem"
+				type: "item"
+			}]
+			title: "The Order of Beans"
+			x: 33.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["52742200467FC388"]
+			description: ["The term \"bean\" is so wide in context that it is its own set and has multiple tribes it is in."]
+			id: "0C1EB548007AF7B8"
+			tasks: [{
+				id: "5E119330F39D0D31"
+				item: "pamhc2crops:beanitem"
+				type: "item"
+			}]
+			x: 33.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52742200467FC388"]
+			description: ["Welcome to the alfalfa tribe! There is only one plant: alfalfa."]
+			id: "34A7E247B11694B8"
+			tasks: [{
+				id: "3EB22D37F162D403"
+				item: "pamhc2crops:alfalfaitem"
+				type: "item"
+			}]
+			title: "The Alfalfa Tribe"
+			x: 35.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["52742200467FC388"]
+			description: ["Welcome to the chickpea tribe! There is only one plant: the chickpea."]
+			id: "60177B25ABB192DB"
+			tasks: [{
+				id: "565C489952D4A4B9"
+				item: "pamhc2crops:chickpeaitem"
+				type: "item"
+			}]
+			title: "The Chickpea Tribe"
+			x: 31.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["52742200467FC388"]
+			description: ["Welcome to the soybean tribe! The main plant is the soybean. There are 2 plants to find!"]
+			id: "72C6DBA7C8461041"
+			tasks: [{
+				id: "006E00404AB48917"
+				title: "The Soybean Tribe"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["72C6DBA7C8461041"]
+			id: "06D18906DD05CDC9"
+			tasks: [{
+				id: "2692EA7A1D117744"
+				item: "pamhc2crops:soybeanitem"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["72C6DBA7C8461041"]
+			id: "6D7F7E555795DF13"
+			tasks: [{
+				id: "0C37C5AD6C4B3D36"
+				item: "pamhc2crops:jicamaitem"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["52742200467FC388"]
+			description: ["Welcome to the peas tribe! The main plant is peas. There are two plants to find."]
+			id: "7EB5B7FEC9E98A6A"
+			tasks: [{
+				id: "20B73F510174D750"
+				title: "The Peas Tribe"
+				type: "checkmark"
+			}]
+			x: 35.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7EB5B7FEC9E98A6A"]
+			id: "7AA9C463B365E0C3"
+			tasks: [{
+				id: "0BB1BAAA4AF89F0C"
+				item: "pamhc2crops:peasitem"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7EB5B7FEC9E98A6A"]
+			id: "1D46F5C34E8E3876"
+			tasks: [{
+				id: "1002FEB085F8D646"
+				item: "pamhc2crops:lentilitem"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["52742200467FC388"]
+			description: ["Welcome to the peanut tribe! There is only one plant: the peanut plant."]
+			id: "7CD627190E6A9B7B"
+			tasks: [{
+				id: "6EFAE7DD0487173F"
+				item: "pamhc2crops:peanutitem"
+				type: "item"
+			}]
+			title: "The Peanut Tribe"
+			x: 33.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the lettuce! The main plant is lettuce. There is one set and 6 plants to find."
+				""
+				"Welcome to the lettuce set! The main plant is lettuce. There are 4 tribes and 6 plants to find."
+				""
+				"This deja vu thing keeps happening."
+			]
+			hide_dependency_lines: true
+			id: "19C74AF9A08687A0"
+			tasks: [{
+				id: "27A7E4ECBE79A7C2"
+				item: "pamhc2crops:lettuceitem"
+				type: "item"
+			}]
+			title: "The Order of the Lettuce"
+			x: 41.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19C74AF9A08687A0"]
+			description: ["Welcome to the artichoke tribe! The main plant is the artichoke. There are 2 plants to find."]
+			id: "65B455CD0CA6DE23"
+			tasks: [{
+				id: "34D2FE23F981CB62"
+				title: "The Artichoke Tribe"
+				type: "checkmark"
+			}]
+			x: 39.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["65B455CD0CA6DE23"]
+			id: "721E32C141AA5AD9"
+			tasks: [{
+				id: "462D68FC3A5FCCC6"
+				item: "pamhc2crops:artichokeitem"
+				type: "item"
+			}]
+			x: 38.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65B455CD0CA6DE23"]
+			id: "7BFA5FB4FE858F46"
+			tasks: [{
+				id: "35C5E0F5D7D38794"
+				item: "minecraft:cornflower"
+				type: "item"
+			}]
+			x: 38.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["19C74AF9A08687A0"]
+			description: ["Welcome to the lettuce tribe! The main plant is lettuce. There are 2 plants to find."]
+			id: "5ABC31A272212E6F"
+			tasks: [{
+				id: "2A6ACA2E6043C639"
+				title: "The Lettuce Tribe"
+				type: "checkmark"
+			}]
+			x: 43.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5ABC31A272212E6F"]
+			id: "3D24E5BD16C08BC6"
+			tasks: [{
+				id: "3EB8255415956133"
+				item: "pamhc2crops:lettuceitem"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5ABC31A272212E6F"]
+			id: "59F3FA6859F3FFC2"
+			tasks: [{
+				id: "627EA4641604DDE2"
+				item: "minecraft:dandelion"
+				type: "item"
+			}]
+			x: 45.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["19C74AF9A08687A0"]
+			id: "6B5611F2E3E8B3CC"
+			tasks: [{
+				id: "4DF1D67C4289BCBC"
+				item: "minecraft:oxeye_daisy"
+				type: "item"
+			}]
+			x: 41.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["19C74AF9A08687A0"]
+			id: "34ADFF4AB813616D"
+			tasks: [{
+				id: "3DB56F437472CD91"
+				item: "pamhc2crops:sunchokeitem"
+				type: "item"
+			}]
+			x: 41.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: ["Welcome to the order of the cactus! The main plant is cactus. There are 3 sets and 9 plants to find."]
+			hide_dependency_lines: true
+			id: "1CCEF24B9B161051"
+			tasks: [{
+				id: "23B88D2F82CF26E4"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			title: "The Order of the Cactus"
+			x: 40.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1CCEF24B9B161051"]
+			description: ["Welcome to the cactus set! The main plant is the cactus. There are 2 tribes and 4 plants to find!"]
+			id: "18EDC79FF96A5CB0"
+			tasks: [{
+				id: "5211CE81908C633E"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			title: "The Cactus Set"
+			x: 38.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["18EDC79FF96A5CB0"]
+			description: ["Since \"cactus\" is so broad in context, it is the set and is in multiple tribes."]
+			id: "7F6A4C28E5EC1195"
+			tasks: [{
+				id: "7A1E90F0BD0E7D95"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: 36.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["18EDC79FF96A5CB0"]
+			description: ["Welcome to the barrel cactus tribe! There is one plant: the barrel cactus."]
+			id: "3CA6AB3689D79BC5"
+			tasks: [{
+				id: "7B2E3D62C4193618"
+				item: "pamhc2crops:barrelcactusitem"
+				type: "item"
+			}]
+			title: "The Barrel Cactus Tribe"
+			x: 38.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["18EDC79FF96A5CB0"]
+			description: ["Welcome to the nopales tribe! The main plant is the nopales. There are 2 plants to find."]
+			id: "3FB5B1D2E4E585A9"
+			tasks: [{
+				id: "5A0A25D139F50B6D"
+				title: "The Nopales Tribe"
+				type: "checkmark"
+			}]
+			x: 38.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3FB5B1D2E4E585A9"]
+			id: "07EA2A10B5524307"
+			tasks: [{
+				id: "7F2C52C28A53DD1C"
+				item: "pamhc2crops:nopalesitem"
+				type: "item"
+			}]
+			x: 37.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3FB5B1D2E4E585A9"]
+			id: "07BC3D7F65CC8F13"
+			tasks: [{
+				id: "29FA370D65F8F713"
+				item: "pamhc2crops:cactusfruititem"
+				type: "item"
+			}]
+			x: 39.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1CCEF24B9B161051"]
+			description: ["Welcome to the amaranth set! The main plant is amaranth. There are 3 tribes and 4 plants to find."]
+			id: "2F687E5F4968D8A3"
+			tasks: [{
+				id: "0B69CF11B340F765"
+				item: "pamhc2crops:amaranthitem"
+				type: "item"
+			}]
+			title: "The Amaranth Set"
+			x: 42.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2F687E5F4968D8A3"]
+			description: ["Even though its the main plant of its set, amaranth doesn't have a tribe. :("]
+			id: "57955D13D914B70D"
+			tasks: [{
+				id: "11FEA86AD0E3AE07"
+				item: "pamhc2crops:amaranthitem"
+				type: "item"
+			}]
+			x: 44.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2F687E5F4968D8A3"]
+			description: ["Welcome to the beetroot tribe! There is only one plant: beetroot."]
+			id: "3894015D1F6736A6"
+			tasks: [{
+				id: "747E165FAA1EE2F4"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			title: "The Beetroot Tribe"
+			x: 42.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2F687E5F4968D8A3"]
+			description: ["Welcome to the quinoa tribe! There is only one plant: quinoa."]
+			id: "04B5A9D032686702"
+			tasks: [{
+				id: "59D66F68C3914418"
+				item: "pamhc2crops:quinoaitem"
+				type: "item"
+			}]
+			title: "The Quinoa Tribe!"
+			x: 44.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2F687E5F4968D8A3"]
+			description: ["Welcome to the Spinach tribe! There is only one plant: spinach."]
+			id: "2EC5ED78BCF333F1"
+			tasks: [{
+				id: "0481B526F1ACE847"
+				item: "pamhc2crops:spinachitem"
+				type: "item"
+			}]
+			title: "The Spinach Tribe"
+			x: 42.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1CCEF24B9B161051"]
+			description: ["Welcome to the rhubarb set! There is one plant: rhubarb."]
+			id: "21CFE3912F86B56C"
+			tasks: [{
+				id: "6132EF1B56C72153"
+				item: "pamhc2crops:rhubarbitem"
+				type: "item"
+			}]
+			title: "The Rhubarb Set"
+			x: 40.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the coffee bean! The main plant is the coffee bean. There is one set and 2 plants to find."
+				""
+				"Welcome to the coffee bean set. The main plant is the coffee bean. There are 2 tribes and 2 plants to find."
+				""
+				"I'm having deja vu."
+			]
+			hide_dependency_lines: true
+			id: "7479FE8066945800"
+			tasks: [{
+				id: "54D47444D482F90D"
+				item: "pamhc2crops:coffeebeanitem"
+				type: "item"
+			}]
+			title: "The Order of the Coffee Bean"
+			x: 22.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7479FE8066945800"]
+			description: ["Welcome to the azure bluet tribe! There is one plant: the azure bluet."]
+			id: "636504F299FD5428"
+			tasks: [{
+				id: "5285A389532824DC"
+				item: "minecraft:azure_bluet"
+				type: "item"
+			}]
+			title: "The Azure Bluet Tribe"
+			x: 20.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7479FE8066945800"]
+			description: ["Welcome to the coffee bean tribe! There is one plant: the coffee bean."]
+			id: "06FBF704ABA265A6"
+			tasks: [{
+				id: "1EFBE879439AA8C8"
+				item: "pamhc2crops:coffeebeanitem"
+				type: "item"
+			}]
+			title: "The Coffee Bean Tribe"
+			x: 24.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of tomatoes! The main plant is the tomato*. There are 2 sets and 8 plants to find."
+				""
+				"*:This order is special in the fact that tomatoes aren't fully considered a main plant. In fact, the potato is roughly at the same status. You must have both to complete the quest."
+			]
+			hide_dependency_lines: true
+			id: "77DFDD7497025E31"
+			tasks: [
+				{
+					id: "1578912366B838CE"
+					item: "pamhc2crops:tomatoitem"
+					type: "item"
+				}
+				{
+					id: "621BD5B063AED813"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			title: "The Order of Tomatoes (Potatoes)"
+			x: 24.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["77DFDD7497025E31"]
+			description: ["Welcome to the sweet potato set! There is one plant: the sweet potato."]
+			id: "7D9A3E20D7B2A0EA"
+			tasks: [{
+				id: "6AAD208E03E3FD4C"
+				item: "pamhc2crops:sweetpotatoitem"
+				type: "item"
+			}]
+			title: "The Sweet Potato Set"
+			x: 26.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["77DFDD7497025E31"]
+			description: [
+				"Welcome to the tomato set! The main plant is the tomato*. There are 4 tribes and 7 plants to find"
+				""
+				"*Yes the potato is still being argued for the main plant. As such, you must have both to complete the quest."
+			]
+			id: "6A0A4D85411368A2"
+			tasks: [
+				{
+					id: "7DB8ED1DA49F794A"
+					item: "pamhc2crops:tomatoitem"
+					type: "item"
+				}
+				{
+					id: "1E46EDABC559C4C3"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			title: "The Tomato (Potato) Set"
+			x: 23.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6A0A4D85411368A2"]
+			description: [
+				"Welcome to the tomato tribe! The main plant is the tomato*. There are 3 plants to find."
+				""
+				"*You're not going to believe this, but tomatoes and potatoes are very close genetically (same genus!). I'm shocked too!"
+			]
+			id: "6D959D5739198AAE"
+			tasks: [{
+				id: "23156FD623832D83"
+				title: "The Tomato (Potato!) Tribe"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6D959D5739198AAE"]
+			id: "5C4C53033D0846AA"
+			tasks: [{
+				id: "1FDE0F6242DFC2CD"
+				item: "pamhc2crops:tomatoitem"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D959D5739198AAE"]
+			id: "17D2BF87EEF675E4"
+			tasks: [{
+				id: "158DEE17E1CA2F52"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6D959D5739198AAE"]
+			id: "272631D723E26EEA"
+			tasks: [{
+				id: "7F42386933701201"
+				item: "pamhc2crops:eggplantitem"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6A0A4D85411368A2"]
+			description: ["Welcome to the pepper tribe! The main plant is the bell pepper. There are 2 plants to find."]
+			id: "6A1D9BAF3FE55A32"
+			tasks: [{
+				id: "41E6DC702400D332"
+				title: "The Pepper Tribe"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6A1D9BAF3FE55A32"]
+			id: "329576509871BC4F"
+			tasks: [{
+				id: "2427C2C6CC1D2246"
+				item: "pamhc2crops:bellpepperitem"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6A1D9BAF3FE55A32"]
+			id: "52E4A827CB16F42B"
+			tasks: [{
+				id: "23D4F62E896A16CE"
+				item: "pamhc2crops:chilipepperitem"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6A0A4D85411368A2"]
+			description: ["Welcome to the tomatillo tribe! There is only one plant: the tomatillo."]
+			id: "10F0A5210E9005D8"
+			tasks: [{
+				id: "2D5ED1555A420F4E"
+				item: "pamhc2crops:tomatilloitem"
+				type: "item"
+			}]
+			title: "The Tomatillo Tribe"
+			x: 24.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6A0A4D85411368A2"]
+			description: ["Welcome to the Wolfberry tribe! There is one plant: the wolfberry."]
+			id: "6AD8CFAABBF8D5E0"
+			tasks: [{
+				id: "614C0C0AB471057E"
+				item: "pamhc2crops:wolfberryitem"
+				type: "item"
+			}]
+			title: "The Wolfberry Tribe"
+			x: 25.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the gourd! The main plant is the winter squash. There is one set and 7 plants to find."
+				""
+				"Welcome to the gourd set! The main plant is the winter squash. There are 2 tribes and 7 plants to find."
+				""
+				"Note: A gourd is a type of plant. If you were to get the average gourd, you would get a squash."
+			]
+			hide_dependency_lines: true
+			id: "386CE330712F8A4F"
+			tasks: [{
+				id: "09CCC6929D0E3774"
+				item: "pamhc2crops:wintersquashitem"
+				type: "item"
+			}]
+			title: "Order of the Gourd"
+			x: 31.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["386CE330712F8A4F"]
+			description: ["Welcome to the melon tribe! The main plant is the (water)melon. There are 4 plants to find."]
+			id: "62A43F8988224CE3"
+			tasks: [{
+				id: "6788AAD16E2FBEEE"
+				type: "checkmark"
+			}]
+			title: "The Melon Tribe"
+			x: 29.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["62A43F8988224CE3"]
+			id: "160C47AC346B2AAC"
+			tasks: [{
+				id: "09CF58B6F68E43D3"
+				item: "pamhc2crops:calabashitem"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["62A43F8988224CE3"]
+			id: "70C4A49D850984E1"
+			tasks: [{
+				id: "23BFD277783D12BF"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["62A43F8988224CE3"]
+			id: "4A6450F71238EAB3"
+			tasks: [{
+				id: "40B6BBDE99D2F383"
+				item: "pamhc2crops:cantaloupeitem"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["62A43F8988224CE3"]
+			id: "5C1D81C83ADC5D8B"
+			tasks: [{
+				id: "54B37A8A85DF35D0"
+				item: "pamhc2crops:cucumberitem"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["386CE330712F8A4F"]
+			description: ["Welcome to the squash tribe! The main plant is the winter squash. There are 3 plants to find."]
+			id: "1457A3745C5650E3"
+			tasks: [{
+				id: "54851E8BF23BDF05"
+				type: "checkmark"
+			}]
+			title: "The Squash Tribe"
+			x: 33.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1457A3745C5650E3"]
+			id: "4055FABEDFC3B047"
+			tasks: [{
+				id: "5FBED84F8BAEC019"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1457A3745C5650E3"]
+			id: "6F27A90B1466E953"
+			tasks: [{
+				id: "3437982B8E82A8D0"
+				item: "pamhc2crops:wintersquashitem"
+				type: "item"
+			}]
+			x: 35.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1457A3745C5650E3"]
+			id: "1B1955304E64ADF7"
+			tasks: [{
+				id: "3ABC9F9F4F343335"
+				item: "pamhc2crops:zucchiniitem"
+				type: "item"
+			}]
+			x: 33.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the fruit bearer! The main plant is the strawberry. There are 3 sets and 6 plants to find."
+				""
+				"Note: Berry has such a wide context that it is very hard to pin where it is for classification. However, this order is responsible for the genes for apple trees, cherry trees, apricot trees, and other fruit bearing trees and plants."
+			]
+			hide_dependency_lines: true
+			id: "1B0B1E561A9A3320"
+			tasks: [{
+				id: "053117D2C33B6AF6"
+				item: "pamhc2crops:strawberryitem"
+				type: "item"
+			}]
+			title: "Order of the Fruit Bearer"
+			x: 40.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B0B1E561A9A3320"]
+			description: ["Welcome to the fruit bearer set! The main plant is the strawberry. There are 2 tribes and 4 plants to find."]
+			id: "038D0F5C5B1BF696"
+			tasks: [{
+				id: "47781F501EFE0C4A"
+				item: "pamhc2crops:strawberryitem"
+				type: "item"
+			}]
+			title: "Set of the Fruit Bearer"
+			x: 38.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["038D0F5C5B1BF696"]
+			description: ["Welcome to the strawberry tribe! There is one plant: the strawberry."]
+			id: "396ED00BE79786FF"
+			tasks: [{
+				id: "5E26DC65E9D8C434"
+				item: "pamhc2crops:strawberryitem"
+				type: "item"
+			}]
+			title: "The Strawberry Tribe"
+			x: 37.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["038D0F5C5B1BF696"]
+			description: ["Welcome to the group berry tribe! The main plant is the raspberry. There are 3 plants to find."]
+			id: "3D2CEF954A9823D3"
+			tasks: [{
+				id: "5A4B6AF93AD89EBB"
+				item: "pamhc2crops:raspberryitem"
+				type: "item"
+			}]
+			title: "The Group Berry Tribe"
+			x: 37.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D2CEF954A9823D3"]
+			id: "127C0FAF10FA1BAC"
+			tasks: [{
+				id: "32CE045F95898680"
+				item: "pamhc2crops:raspberryitem"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D2CEF954A9823D3"]
+			id: "3FEA21668BC7D1EA"
+			tasks: [{
+				id: "2014E0F034FBCE2B"
+				item: "pamhc2crops:blackberryitem"
+				type: "item"
+			}]
+			x: 36.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D2CEF954A9823D3"]
+			id: "6850CE3CE6E4F76B"
+			tasks: [{
+				id: "143868023B2CC64F"
+				item: "pamhc2crops:cloudberryitem"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B0B1E561A9A3320"]
+			description: ["Welcome to the mulberry set! There is one plant: the mulberry."]
+			id: "1664211C13AAE523"
+			tasks: [{
+				id: "6534900D76B7E901"
+				item: "pamhc2crops:mulberryitem"
+				type: "item"
+			}]
+			title: "The Mulberry Set"
+			x: 41.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1B0B1E561A9A3320"]
+			description: ["Welcome to the nettles set! There is one plant: the nettle."]
+			id: "08AB6A533B61285D"
+			tasks: [{
+				id: "34AA91745B3A5C52"
+				item: "pamhc2crops:nettlesitem"
+				type: "item"
+			}]
+			title: "The Nettles Set"
+			x: 41.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the candleberry! There is one plant: the candleberry!"
+				""
+				""
+				"Note: Candleberries are harder to get for a reason..."
+			]
+			hide_dependency_lines: true
+			id: "67039736B8F6FF50"
+			tasks: [{
+				id: "2C67373E3FD8283B"
+				item: "pamhc2crops:candleberryitem"
+				type: "item"
+			}]
+			title: "Order of the Candleberry"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the stalk! The main plant is the carrot. There is one set and 3 plants to find."
+				""
+				"Welcome to the set of the stalk! The main plant is the carrot. There are 3 tribes and 3 plants to find."
+				""
+				"Feels like deja vu."
+			]
+			hide_dependency_lines: true
+			id: "26FDB9699CBACB59"
+			tasks: [{
+				id: "31B87961D69D442B"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "Order of the Stalk"
+			x: 37.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26FDB9699CBACB59"]
+			description: ["Welcome to the carrot tribe! There is one plant: the carrot."]
+			id: "77BADC065B3ADAAF"
+			tasks: [{
+				id: "42B757FFDF1CA8E1"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "The Carrot Tribe"
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26FDB9699CBACB59"]
+			description: ["Welcome to the celery tribe! There is one plant: celery."]
+			id: "5E5F18649254C5EA"
+			tasks: [{
+				id: "4B70C17115D9E3A8"
+				item: "pamhc2crops:celeryitem"
+				type: "item"
+			}]
+			title: "The Celery Tribe"
+			x: 36.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26FDB9699CBACB59"]
+			description: ["Welcome to the parsnip tribe! There is one plant: parsnip."]
+			id: "7C421AE21E3E9491"
+			tasks: [{
+				id: "61E0EEB557663241"
+				item: "pamhc2crops:parsnipitem"
+				type: "item"
+			}]
+			title: "The Parsnip Tribe"
+			x: 39.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: ["Welcome to the order of the flowers! The main plant is flax. There are two sets and 2 plants to find."]
+			hide_dependency_lines: true
+			id: "16AB6D85F169F82F"
+			tasks: [{
+				id: "6A5A56664268BBC8"
+				item: "pamhc2crops:flaxitem"
+				type: "item"
+			}]
+			title: "Order of the Flowers"
+			x: 30.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16AB6D85F169F82F"]
+			description: ["Welcome to the flax set! There is one plant: flax."]
+			id: "1CBAD1D780013778"
+			tasks: [{
+				id: "44F44ACDEAD41B75"
+				item: "pamhc2crops:flaxitem"
+				type: "item"
+			}]
+			title: "The Flax Set"
+			x: 28.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16AB6D85F169F82F"]
+			description: ["Welcome to the cassava set! There is one plant: cassava."]
+			id: "10E6B6DF0DCDCB03"
+			tasks: [{
+				id: "7A28928C2A0B3441"
+				item: "pamhc2crops:cassavaitem"
+				type: "item"
+			}]
+			title: "The Cassava Set"
+			x: 31.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the grapes! There are two plants in this order. There is no main plant due to the similarities."
+				""
+				"Note: Grape plants are special in that they can produce some of the other variety without more crossbreeding."
+			]
+			hide_dependency_lines: true
+			id: "1F06F5BFF95F4FC7"
+			tasks: [
+				{
+					id: "41716F9BF186E89A"
+					item: "pamhc2crops:grapeitem"
+					type: "item"
+				}
+				{
+					id: "6663B8ABCD4F21C1"
+					item: "pamhc2crops:greengrapeitem"
+					type: "item"
+				}
+			]
+			title: "Order of the Grapes"
+			x: 26.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: ["Welcome to the order of the guarana. There is one plant: the guarana."]
+			hide_dependency_lines: true
+			id: "69EF5813E169C1AC"
+			tasks: [{
+				id: "6C811EA49F52EC4D"
+				item: "pamhc2crops:guaranaitem"
+				type: "item"
+			}]
+			title: "Order of the Guarana"
+			x: 35.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the fabric. The main plant is cotton. There is one set and 4 plants to find."
+				""
+				"Welcome to the set of the fabric-makers. The main plant is cotton. There are 3 tribes and 4 plants to find."
+			]
+			hide_dependency_lines: true
+			id: "7FF0DE50A84FF1A1"
+			tasks: [{
+				id: "04D8E8BC9E555077"
+				item: "pamhc2crops:cottonitem"
+				type: "item"
+			}]
+			title: "Order of the Fabric"
+			x: 41.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7FF0DE50A84FF1A1"]
+			description: ["Welcome to the hibiscus tribe! The main plant is kenaf. There are 2 plants to find."]
+			id: "4B118DDCDB41EB0C"
+			tasks: [{
+				id: "00C33E85B416BF0F"
+				type: "checkmark"
+			}]
+			title: "The Hibiscus Tribe"
+			x: 43.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B118DDCDB41EB0C"]
+			id: "1E5A7806C5D307D1"
+			tasks: [{
+				id: "44FD1EEBC4328923"
+				item: "pamhc2crops:kenafitem"
+				type: "item"
+			}]
+			x: 44.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B118DDCDB41EB0C"]
+			id: "27E4BB0ADC7C5C7E"
+			tasks: [{
+				id: "64BDB94821D0F781"
+				item: "pamhc2crops:okraitem"
+				type: "item"
+			}]
+			x: 44.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7FF0DE50A84FF1A1"]
+			description: ["Welcome to the jute tribe! There is one plant: jute."]
+			id: "793DB777A88B98D6"
+			tasks: [{
+				id: "4FCF5D2454C2E85C"
+				item: "pamhc2crops:juteitem"
+				type: "item"
+			}]
+			title: "The Jute Tribe"
+			x: 40.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FF0DE50A84FF1A1"]
+			description: ["Welcome to the cotton tribe! There is one plant: cotton."]
+			id: "3429C62E602040A9"
+			tasks: [{
+				id: "422634C60D00031D"
+				item: "pamhc2crops:cottonitem"
+				type: "item"
+			}]
+			title: "The Cotton Tribe"
+			x: 40.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the elderberry! There is one plant: elderberry."
+				""
+				"This plant is really hard to get by usual cross-breeding for a reason. Maybe you need another special berry to make it easier..."
+			]
+			hide_dependency_lines: true
+			id: "7EB74C988430355F"
+			tasks: [{
+				id: "430F7F3F45DAEDB0"
+				item: "pamhc2crops:elderberryitem"
+				type: "item"
+			}]
+			title: "The Order of the Elderberry"
+			x: 34.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: ["Welcome to the order of the lotus! There is one plant: the lotus!"]
+			hide_dependency_lines: true
+			id: "4AEF84703E55B953"
+			tasks: [{
+				id: "2D1E298AEC28FFD5"
+				item: "pamhc2crops:lotusitem"
+				type: "item"
+			}]
+			title: "Order of the Lotus"
+			x: 31.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: [
+				"Welcome to the order of the poppy! There is one plant: the poppy!"
+				""
+				"This plant is special and can help you get rarer plants."
+			]
+			hide_dependency_lines: true
+			id: "29B0A2DC0D5F46F9"
+			tasks: [{
+				id: "54CF97DDE267C744"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
+			title: "Order of the Poppy"
+			x: 36.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: ["Welcome to the order of the medicine herbs! The main plant is chia. There are two sets and two plants to find."]
+			hide_dependency_lines: true
+			id: "7383C12CDBD04E47"
+			tasks: [{
+				id: "4BB8DE144A00A480"
+				item: "pamhc2crops:chiaitem"
+				type: "item"
+			}]
+			title: "Order of the Medicine Herbs"
+			x: 26.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7383C12CDBD04E47"]
+			description: ["Welcome to the chia set! There is one plant: chia."]
+			id: "6CF5D305A31C9ED6"
+			tasks: [{
+				id: "035CE5F1E85E27A7"
+				item: "pamhc2crops:chiaitem"
+				type: "item"
+			}]
+			title: "The Chia Set"
+			x: 27.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7383C12CDBD04E47"]
+			description: ["Welcome to the sesame set! There is one plant: sesame."]
+			id: "03C8C27EA610B15E"
+			tasks: [{
+				id: "0EF65E37E279BA03"
+				item: "pamhc2crops:sesameseedsitem"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F9F33D1BB1F1479"]
+			description: ["Welcome to the order of the water chestnut! There is one plant: the water chestnut."]
+			hide_dependency_lines: true
+			id: "60167A506F39010A"
+			tasks: [{
+				id: "62A0B34BDE430D97"
+				item: "pamhc2crops:waterchestnutitem"
+				type: "item"
+			}]
+			title: "Order of the Water Chestnut"
+			x: 35.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["436C30F2E4314D5A"]
+			description: [
+				"So you finally did it."
+				""
+				"After getting candleberries and elderberries, you have created a woody shrub capable of growing 1 meter tall."
+				""
+				"Congratulations. Trees are now in reach."
+				""
+				"Is what I would be saying if you could get to trees. Junipers are the only plants that are on the tree side of things until you can start genetic modifications, which is in LV. Good luck!"
+			]
+			hide_text_until_complete: true
+			id: "2C2B64BB21E373F9"
+			tasks: [{
+				id: "7859DBC8BEEC9835"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2C2B64BB21E373F9"]
+			description: ["This is the first step towards trees. However, you won't be seeing the next quest for a while."]
+			id: "735DF7F96776655A"
+			subtitle: "Your first tree!"
+			tasks: [{
+				id: "3F7373642F21E9A5"
+				item: "pamhc2crops:juniperberryitem"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.5d
+		}
+	]
+	title: "The lineage of plants"
+}

@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_12_going_for_lava"
+	group: "52588E30EF4CD35C"
+	id: "5CCD706B2BC883F3"
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		description: ["Sulfuric Fire now can stoke a true power!"]
+		id: "32A0C4E6B38A4E05"
+		tasks: [{
+			id: "553B93C6B187FE1A"
+			title: "Chapter 12: Lava and your first ingot"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -1.5d
+	}]
+	title: "Chapter 12: Going for Lava"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter____welcome_to_mv"
+	group: "085C3D5D162961D5"
+	id: "2DEC057749349058"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter __: Welcome to MV!"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_15_iron_strengthened_alloy"
+	group: "6C58BD365E76624A"
+	id: "0D2BDC00D232E5EA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter 15: Iron Stones come in Handy"
+}

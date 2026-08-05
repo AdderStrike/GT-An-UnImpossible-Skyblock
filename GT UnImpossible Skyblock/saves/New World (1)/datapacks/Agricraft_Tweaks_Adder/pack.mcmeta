@@ -1,0 +1,27 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "A More Realistic Breeding Setup. Contains only PamHC and Vanilla"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace":"agricraft",
+        "path": "agricraft/mutations/.*"
+      },{
+        "namespace":"minecraft",
+        "path": "agricraft/mutations/.*"
+      },{
+        "namespace":"pamhc2crops",
+        "path": "agricraft/mutations/.*"
+      },{
+        "namespace":"biomesoplenty",
+        "path": "agricraft/mutations/.*"
+      },{
+        "namespace":"farmersdelight",
+        "path": "agricraft/mutations/.*"
+      }
+      
+    ]
+  }
+}

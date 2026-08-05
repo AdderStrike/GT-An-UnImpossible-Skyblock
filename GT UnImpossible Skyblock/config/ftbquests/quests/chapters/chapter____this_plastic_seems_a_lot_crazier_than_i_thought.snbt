@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter____this_plastic_seems_a_lot_crazier_than_i_thought"
+	group: "085C3D5D162961D5"
+	id: "4C2F26CDB71AD41F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Requires water, 1-propanol, phenolphthalein, sodium hydroxide, methyl red, bromothmyol blue, sodium bisulfite, and thymol blue."
+			""
+			"Water - Easy"
+			"Sodium Hydroxide - Easy"
+			"Sodium Bisulfite - 1 Sodium Bicarbonate + 1 bucket of sulfur dioxide makes 1 sodium bisulfite and 1 bucket of carbon dioxide"
+			""
+			"{@pagebreak}"
+			"1-propanol - Call it propanol and inject it into the distillation of fermented fluids."
+			""
+			"{@pagebreak}"
+			"Phenolphthalein - Takes 2 buckets of phenol and 1 bucket of phthalic anhydride along with a sulfur dust as a catalyst (10% consumption)"
+			"Phthalic Anhydride - Takes 1 bucket of napthalene, 2 vanadium dusts (NC), and 5 buckets of oxygen to make 1 bucket of phthalic anhydride and 1 bucket of carbon dioxide."
+			""
+			"{@pagebreak}"
+			"Methyl Red - Takes 1 bucket of dimethylaniline and 1 bucket of diazoanthranilic acid to make 1 bucket of methyl red and 1 bucket of chlorine"
+			"Diazoanthranilic Acid - Takes 1 bucket of nitrous acid, 1 bucket of  anthranilic acid, and 1 bucket of hydrochloric acid to make 1 bucket of dianth. acid and 2 buckets of water"
+			"Anthranilic Acid - Fluid Heat blue dye, 1 bucket => 200 mB"
+			"Dimethylaniline - Takes  1 bucket of aniline and 2 buckets of methanol to make 1 bucket of dimethylaniline and 2 buckets of water"
+			"Aniline - Takes 1 bucket of ammonia and 1 bucket of phenol to make 1 bucket of aniline and 1 bucket of water"
+			"{@pagebreak}"
+			"Bromythol Blue - Takes 1 mb of acetic acid anhydride, 1 bucket of thymol blue, and 1 bucket of bromine"
+			"Thymol Blue - Takes 2 buckets of thymol, 1 bucket of benzoic anhydride, and 1 sulfur dust"
+			"Thymol - Takes 1 bucket of cresol and 1 bucket of propene"
+			"Cresol - Inject into distillation of coal tar."
+			"Benzoic Anhydride - Takes 2 buckets of benzoic acid and 1 bucket of acetic anhydride to make 1 bucket of benzoic anhydride and 2 buckets of acetic acid"
+			"Benzoic Acid - Takes 1 bucket of toluene and 1 bucket of oxygen to make 1 bucket of benzoic acid and 1 bucket of water"
+		]
+		id: "2B128D5AF7FFDA4B"
+		tasks: [{
+			id: "5BA1D0D281698F4E"
+			title: "List for pH Paper"
+			type: "checkmark"
+		}]
+		x: 1.5d
+		y: -1.5d
+	}]
+	title: "Chapter __: The Plastic Struck me in the head!"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_9_glass_bottle_go_brr"
+	group: "52588E30EF4CD35C"
+	id: "79E3464F48479B20"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter 10: Glass bottle go Brr"
+}

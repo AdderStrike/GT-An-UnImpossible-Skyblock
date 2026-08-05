@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter____so_you_got_a_basic_gene_editor"
+	group: "462FDD2A9EA8E623"
+	id: "10E1B9E1855D1082"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter __: So you got a basic gene editor"
+}

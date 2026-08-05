@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blaze"
+	group: "52588E30EF4CD35C"
+	id: "4147D38EA9E58903"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter 9: I need power!"
+}

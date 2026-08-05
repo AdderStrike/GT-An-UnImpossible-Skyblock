@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "AgriCraft test datapack"
+  },
+  "filter": {
+    "block": [
+      {
+        "path": "agricraft/(mutations)/.*"
+      }
+    ]
+  }
+}

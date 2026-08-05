@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2_scaffolds"
+	group: "52588E30EF4CD35C"
+	icon: "create:andesite_scaffolding"
+	id: "1DDA5B44D38A6080"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75B13869C47374EF"]
+			description: [
+				"Now that you have some stability, we can focus on a couple of things to work on."
+				""
+				"Critical things, like food, water, and a sleeping place."
+				""
+				"But first, I suggest getting a more stable platform, possibly more dirt."
+				""
+				"If you've grinded enough to get away from your dirt, you might have mobs spawning on your dirt. Their drops aren't necessary. For now."
+			]
+			id: "1D62FB3AE6EFE37E"
+			tasks: [{
+				id: "05496FD73E391FEB"
+				title: "Congratulations!"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D62FB3AE6EFE37E"]
+			description: [
+				"I don't get why, but suspicious gravel has no loot when placed."
+				""
+				"That will be changed soon."
+			]
+			id: "4FDA214522ABE4F8"
+			tasks: [{
+				id: "1EC197FD8A0C4939"
+				item: "minecraft:suspicious_gravel"
+				type: "item"
+			}]
+			title: "There is Suspiciously Nothing Here"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4FDA214522ABE4F8"]
+			description: [
+				"Lemme get this straight."
+				""
+				"You took your precious scaffolding, your suspicious gravel, and more calcite to make this?!"
+				""
+				"Nice move there."
+				""
+				"That's a stable enough block to work."
+				""
+				"That calcite will come in handy, since we can GROW calcite blocks! That's right! All you need is 9 calcite dusts, and right click on the calcite to grow a block on top!"
+			]
+			hide_text_until_complete: true
+			id: "7FBBBA6473C5CD30"
+			rewards: [{
+				id: "223DBC25D7D5512C"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "109D6F31262574AD"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			title: "Does It Float?"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7FBBBA6473C5CD30"]
+			description: [
+				"Congrats on a solid block to stand on! We are about to start the biggest grind yet!"
+				""
+				"Note that ALL sands in the quest are needed to make what we need!"
+				""
+				"The flint continues to come in clutch for your hint. ;)"
+			]
+			id: "3CD658211A8B8F1C"
+			tasks: [
+				{
+					id: "6F856D4B5D898685"
+					item: "biomesoplenty:white_sand"
+					type: "item"
+				}
+				{
+					id: "4C340096F8414FA7"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "129A3136799151AB"
+					item: "minecraft:red_sand"
+					type: "item"
+				}
+				{
+					id: "41ACA9EF58CE4A3E"
+					item: "biomesoplenty:orange_sand"
+					type: "item"
+				}
+				{
+					id: "57A8C11CE2BA4188"
+					item: "biomesoplenty:black_sand"
+					type: "item"
+				}
+			]
+			title: "Sandstorm!"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CD658211A8B8F1C"]
+			description: ["Once again, don't bother brushing it, yet"]
+			id: "12C1DC71B40CBA58"
+			tasks: [{
+				id: "2E25A91EF95C562C"
+				item: "minecraft:suspicious_sand"
+				type: "item"
+			}]
+			title: "There is Suspiciously nothing here 2"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"So you may be wondering about how to get bigger dusts for later recipes."
+				""
+				"It's possible, but a 2x2 space leaves very little room, so for now, 4 tiny dusts convert to small dusts."
+				""
+				"It takes 16 tiny dusts to get one big dust."
+				""
+				"So if something takes, say 9 normal dusts... thats 144 tiny dusts or 2.25 stacks of tiny dusts."
+			]
+			id: "0F7D6F810FE75D01"
+			tasks: [{
+				id: "774FE569DBDA9A44"
+				type: "checkmark"
+			}]
+			title: "A small note about dust crafting"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12C1DC71B40CBA58"]
+			description: [
+				"This is it. Your first dirt! While it looks kind of sandy, this dirt (in theory) works fine!"
+				""
+				"Nicely done!"
+				""
+				"This stuff is farmable, but we don't have any seeds!"
+			]
+			id: "4004B40ABC11A4D2"
+			tasks: [{
+				id: "508C2505FC2BFECE"
+				item: "biomeswevegone:sandy_dirt"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4004B40ABC11A4D2"]
+			description: [
+				"After so many things done, we finally have dirt that is very close to our starting block!"
+				""
+				"We need one more ingredient before we get our dirt: limestone."
+				""
+				"Limestone comes from using calcite on sandy dirt, thus sucking up the calcite to make coarse dirt"
+				""
+				"Limestone itself is not strong, but useful for making rudimentary stone tools."
+				""
+				"You may get something special from this coarse dirt..."
+			]
+			id: "0245DC10C643F3DF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "111ADF86DC57FB84"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "0173B21BB2F3E0E1"
+					item: "create:limestone"
+					type: "item"
+				}
+				{
+					id: "42323FE40A892098"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "We somehow got tools???"
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	title: "Chapter 2: Scaffolds"
+}

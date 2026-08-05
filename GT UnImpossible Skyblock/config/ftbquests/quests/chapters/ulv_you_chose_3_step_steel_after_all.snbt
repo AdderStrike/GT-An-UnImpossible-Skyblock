@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ulv_you_chose_3_step_steel_after_all"
+	group: "0A816AAA5592EDDF"
+	id: "6EE2A372A17BE6C8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "ULV: You chose 3 step steel after all"
+}

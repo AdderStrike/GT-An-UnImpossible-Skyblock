@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5_farming_like_crazy"
+	group: "52588E30EF4CD35C"
+	icon: {
+		Count: 1
+		id: "minecraft:stone_hoe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "00A05C71A70C7D48"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["After getting water, we need fire! This will help with making items beyond what we have."]
+			id: "0696572E0B72A5D5"
+			tasks: [{
+				id: "3A20431028ECCDC3"
+				title: "The true fun begins!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0696572E0B72A5D5"]
+			description: [
+				"Why are you looking at this quest funny? Oh, its the wooden bucket, isnt it?"
+				""
+				"Ok, I'll give you a hint. You can make a better wooden bucket in a little bit, I promise. No more one use buckets, soon."
+			]
+			id: "1E9DED2E87C00C10"
+			tasks: [{
+				id: "26ED85CD47CBC667"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E9DED2E87C00C10"]
+			description: [
+				"Flint will be a good chopping tool for now. I will warn you, though, sugar cane isn't so easy to break. Might even chip a flint every once in a while..."
+				""
+				"This will also be the last dust quest that wants all three types. You know how now."
+			]
+			id: "2961A89275FF7671"
+			rewards: [{
+				count: 8
+				id: "57383B6F28F16728"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "742D798049083A04"
+					item: "gtceu:tiny_sugar_dust"
+					type: "item"
+				}
+				{
+					id: "6E413E616FD975B6"
+					item: "gtceu:small_sugar_dust"
+					type: "item"
+				}
+				{
+					id: "1EE698BC2E0B7017"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			title: "Wet Sugarcane Does Not Produce That Much Sugar"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2961A89275FF7671"]
+			description: [
+				"The first truly custom item."
+				""
+				"Yes Im aware its not up to GregTech Item Detail. I'll handle it when I get enough requests."
+			]
+			id: "7321A6FBE58302EC"
+			tasks: [{
+				count: 4L
+				id: "7576395CA3A139FA"
+				item: { Count: 4, id: "kubejs:flammable_binder" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7321A6FBE58302EC"]
+			description: [
+				"Haha no, this barely qualifies as a plank. It also doesn't meet fire standards that are necessary for GTFSTDREQs."
+				""
+				"Let's use that."
+			]
+			id: "38895990A644030F"
+			tasks: [{
+				id: "477BE041342C8D0E"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			title: "Proper Wood?"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"38895990A644030F"
+				"56985E784B54DA34"
+				"03C8161BDA1A63EA"
+			]
+			description: [
+				"Nicely done!"
+				""
+				"The demo ends here, unfortunately"
+				""
+				"The game continues, but it's not playing nice anymore"
+				""
+				"Good luck..."
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "42FF4B1715DAD6D1"
+			shape: "gear"
+			size: 8.0d
+			subtitle: "Light your fire!"
+			tasks: [{
+				icon: "minecraft:campfire"
+				id: "1899CC68AA35285C"
+				observe_type: 2
+				timer: 0L
+				title: "One Lit Campfire!"
+				to_observe: "minecraft:campfire {lit:true}"
+				type: "observation"
+			}]
+			title: "Fire! Fire in my heart!"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7321A6FBE58302EC"]
+			description: [
+				"Crude biochemistry should allow this."
+				""
+				"binder + wooden bucket of water + fertilizer + hematite surface rocks = 25% passable crushed hematite ore"
+			]
+			hide_dependency_lines: true
+			id: "5E1FACD225F5823F"
+			rewards: [{
+				count: 2
+				id: "259C13B4D21B0265"
+				item: "gtceu:impure_hematite_dust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "35418CFCD2681E60"
+					item: "gtceu:fertilizer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "506B285627EA57AD"
+					item: "gtceu:hematite_indicator"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "03214C8957CE32F8"
+					item: "kubejs:flammable_binder"
+					type: "item"
+				}
+			]
+			title: "Crude Biochemistry 001"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5E1FACD225F5823F"]
+			description: [
+				"In order to continue, that crushed dust will do."
+				""
+				"We will need more flammable binder, 2 crushed hematite ore dusts, and a stick, of all things. Why a stick?"
+			]
+			id: "678EAA89B87A270A"
+			tasks: [{
+				id: "4EB4A4DE93445530"
+				item: "gtceu:crushed_hematite_ore"
+				type: "item"
+			}]
+			title: "Geology 001"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["678EAA89B87A270A"]
+			description: [
+				"Your \"steel\" is at hand!"
+				""
+				"Making it will take a BLOCK of calcite, 2 flammable binder, and a crushed pile of hematite."
+				""
+				"It's not the best, and has a 50% consumption rate, but it can make you fire in select times."
+				""
+				"This is one of them."
+			]
+			id: "56985E784B54DA34"
+			tasks: [{
+				id: "06079AD71F19C8C3"
+				item: "gtceu:raw_hematite"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"56985E784B54DA34"
+				"38895990A644030F"
+			]
+			description: [
+				"You must have the following to make a campfire. Make sure to have everything to ensure that you can build this. This is expensive but worth it!"
+				"- 1 Vanilla Scaffolding"
+				"- 4 Planks and 6 Planks"
+				"- 8 Sticks"
+				"- 12 Bamboo"
+				"- 6 Flammable Binder for starter"
+				"- 10 Wheat/Rye/Barley for kindling"
+				"- Flint and \"Steel\""
+				"{@pagebreak}"
+				"1. Place your Vanilla Scaffolding and right click with the 4 planks to craft a wooden slab."
+				"2. Craft a campfire by using a flammable binder on the wooden slab. If you have all the necessary pieces, this should work!"
+				"3. Have your flint in one hand and your \"steel\" on the off hand (We are planning for right handed ness and left handed ness). Light your fire. Failure can result in a loss of your flint or \"steel\"."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "03C8161BDA1A63EA"
+			tasks: [{
+				id: "5BC5E4286458C131"
+				title: "How to make a primitive campfire"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+	]
+	title: "Chapter 5: Farming like crazy"
+}

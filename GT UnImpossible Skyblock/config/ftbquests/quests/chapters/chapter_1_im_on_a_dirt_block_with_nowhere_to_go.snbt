@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1_im_on_a_dirt_block_with_nowhere_to_go"
+	group: "52588E30EF4CD35C"
+	icon: "minecraft:dirt"
+	id: "23FC07BB79A0BB5B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Thanks for joining! The plan is to well, create, farm, and greg our way out of this mess. But that'll take a while."]
+			id: "3C2C52BF900E257D"
+			tasks: [{
+				id: "74D74D25E60DD680"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C2C52BF900E257D"]
+			description: ["Sorry. After the incident, we only had about 3 seconds to get you out. In the meanwhile, this place only has you and flying creatures. Don't worry, the creatures wont be that bad once you get a bed."]
+			id: "675D5BBA30D6EDF2"
+			tasks: [{
+				id: "791573E935ED0CE1"
+				title: "You're on one block right now"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["675D5BBA30D6EDF2"]
+			description: ["To start, we need something to pull out of the dirt. Make sure to shift when doing so, otherwise it won't work."]
+			id: "1FB706EC5903A722"
+			tasks: [
+				{
+					id: "1DE45F495D860529"
+					item: "gtceu:hematite_indicator"
+					type: "item"
+				}
+				{
+					id: "190315FFD2E09EF0"
+					item: "gtceu:calcite_indicator"
+					type: "item"
+				}
+				{
+					id: "1D0C35E9A031E25B"
+					item: "gtceu:gypsum_indicator"
+					type: "item"
+				}
+			]
+			title: "Rocks for Free"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FB706EC5903A722"]
+			description: [
+				"These surface rocks aren't the best, but a pile of them can work as gravel, which is useful!"
+				""
+				"I would also get flint, since we may need it for later."
+			]
+			id: "4672B75FE5D91166"
+			subtitle: "How did you get flint from a pile of stuff???"
+			tasks: [
+				{
+					id: "77A14460DAF25657"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "4C78AE7A1F37E572"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1FB706EC5903A722"]
+			description: ["Breaking the rocks gives these odd dusts. They're sticking to my hands, almost like clay."]
+			id: "57EEFB2A770BDB7B"
+			tasks: [
+				{
+					count: 10L
+					id: "09D9474C9832C77E"
+					item: { Count: 10, id: "gtceu:tiny_hematite_dust" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "516A5E002C444887"
+					item: { Count: 10, id: "gtceu:tiny_gypsum_dust" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4E93CB36AE22F291"
+					item: { Count: 10, id: "gtceu:tiny_calcite_dust" }
+					type: "item"
+				}
+			]
+			title: "Dusts for Free"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4672B75FE5D91166"
+				"57EEFB2A770BDB7B"
+			]
+			description: ["Somehow, the mixing of all of this stuff is producing stone, very similar to what we know. With more calcite and gypsum, we can make some very crude stoneworks. Flint can work as a knife and scoring tool."]
+			id: "369AF7C0AC4C49F2"
+			tasks: [
+				{
+					id: "1074AF6750DD0ED6"
+					item: "gtceu:stone_dust"
+					type: "item"
+				}
+				{
+					id: "086F8F8904B73537"
+					item: "gtceu:stone_rod"
+					type: "item"
+				}
+				{
+					id: "6DDE673DB3EB0EE2"
+					item: "gtceu:stone_plate"
+					type: "item"
+				}
+			]
+			title: "Very, Very Crude Stoneworks"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["369AF7C0AC4C49F2"]
+			description: ["This version of scaffolding isnt great, but its a start. It is able to go 6 blocks in any direction and stack vertically. If you want to use it, you'll need to use your precious dirt block as a base. The good news is that mobs dont spawn on this version of scaffolding when it's the hanging form."]
+			id: "7D8EA8AC5F647E4F"
+			tasks: [{
+				id: "1173307EA1B80116"
+				item: "minecraft:scaffolding"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["369AF7C0AC4C49F2"]
+			description: ["So it turns out that you can grind flint together on top of a stone plate and get stuff from it."]
+			id: "56F125F137F0EC88"
+			tasks: [{
+				count: 10L
+				id: "7F303CF291A828A5"
+				item: "gtceu:tiny_flint_dust"
+				type: "item"
+			}]
+			title: "Ground grinder"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56F125F137F0EC88"]
+			description: ["I can make more rock things with my bare hands still, but it's starting to get harder."]
+			id: "549FD6412030C63E"
+			tasks: [
+				{
+					count: 8L
+					id: "7D1B0D93F04FA419"
+					item: "gtceu:tiny_granite_dust"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "13EC216E1E544C08"
+					item: { Count: 8, id: "gtceu:tiny_diorite_dust" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5918B19104287D87"
+					item: { Count: 8, id: "gtceu:small_andesite_dust" }
+					type: "item"
+				}
+			]
+			title: "Handy Rock Knowledge"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7D8EA8AC5F647E4F"
+				"549FD6412030C63E"
+			]
+			description: ["With this, I have some safety in placing this wherever! It is anchors well enough in the dirt to where I have something of a new platform. Hooray!"]
+			id: "75B13869C47374EF"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "09E178A0916EDE5D"
+				item: "create:andesite_scaffolding"
+				type: "item"
+			}]
+			title: "Better Scaffolding!"
+			x: 5.5d
+			y: 4.5d
+		}
+	]
+	title: "Chapter 1: One block"
+}

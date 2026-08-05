@@ -1,0 +1,1002 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblocks_expansion"
+	group: "58FD58AAE353ADD3"
+	id: "58F27F38323EC626"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"So you decided to check out the multiblocks possible!"
+				""
+				"Multiblock types go down, and available multiblocks are to the right!"
+			]
+			id: "77A8CFC2BB93C495"
+			tasks: [{
+				id: "036B15E3C0503AF4"
+				title: "Understanding Multiblocks"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "4158C19994340B01"
+			tasks: [{
+				id: "7DF4AC6606DA5ECF"
+				title: "This list contains the usual multiblocks"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"HI (High-Intensity) Multiblocks are powerful starting-game-multiblocks! They take LV tier machines and expand their capacities!"
+				""
+				"-Up to EIGHT Energy Hatches!"
+				"-Up to IV (or said) recipes!"
+				"-Unique Twists!"
+			]
+			id: "5FCEC465FCEDC027"
+			tasks: [{
+				id: "41717307855B0915"
+				title: "HI Multiblocks"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Heated Efficiency: This multiblock requires fuel to operate at 100% efficiency, otherwise the machine runs at 50% efficiency."
+			]
+			id: "4B36D04F7034E776"
+			tasks: [{
+				id: "09D07DD06A477692"
+				title: "HI Furnace"
+				type: "checkmark"
+			}]
+			title: "Furnace / Alloy Smelter / Fluid Heater"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Oxoflare: The multiblock uses 1 bucket of oxygen per item. In exchange, the voltage required goes down by 2 levels. (Any ULV or LV Recipes work for free) Any energy-free recipes also use 1 bucket of oxygen just as a heads up."
+			]
+			id: "3180C990569DE8B1"
+			tasks: [{
+				id: "72625138E610FD9C"
+				type: "checkmark"
+			}]
+			title: "Arc Furnace"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Advanced Machinery: The multiblock requires omnidirectional conveyors and MV components to make. However, recipes work one voltage tier down (ULV is free) and cleanroom requirements are waived as long as a primitive infrared component is used."
+			]
+			id: "739A8B9CF53AEC6E"
+			tasks: [{
+				id: "2C0F18ADD77F5A9A"
+				type: "checkmark"
+			}]
+			title: "Assembler / Circuit Assembler / Scanner"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The twist:"
+				""
+				"Productive Power Consumption: This multiblock takes 4x inputs and gives 4x outputs at all times. Power consumption is proportionate and as such, only up to EV recipes are allowed."
+			]
+			id: "1760C446F4114914"
+			tasks: [{
+				id: "2E0F21A354B50A54"
+				type: "checkmark"
+			}]
+			title: "Autoclave"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Efficient Workhorse: This multiblock has a 16x input requirement and and a 16x output. Normally, this would cause a proportionate jump in energy demand and only work up to HV, but if you provide 8 mB of lubricant per recipe, the energy only scales as 4x in cost, allowing up to EV recipes."
+			]
+			id: "2EEA5482FC66177B"
+			tasks: [{
+				id: "47143018451948BB"
+				type: "checkmark"
+			}]
+			title: "Bender / Lathe / Forge Hammer / Wiremill / Extruder"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Well-oiled Machine: The cost for one recipe is 1 mB of lubricant, no matter the original cost. However, only lubricant is allowed to be used."
+			]
+			id: "38E286699E6B80E4"
+			tasks: [{
+				id: "20443181A303BFE2"
+				type: "checkmark"
+			}]
+			title: "Cutter"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"HI Laser: This multiblock requires HV level technology to make. Wafer recipes return 4x in productivity."
+			]
+			id: "6CC28C79F2404D35"
+			tasks: [{
+				id: "69666077544E2A45"
+				title: "Laser Engraver"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Expandable Brewing: The larger this multiblock, the more productive it is. The multiblock can be anywhere between 1 and 10 blocks tall. Formula: 100% + (10*#[height])% for recipe, (10*#[height])% for brewer's scum, which can be macerated into biochaff. If the brewer's scum backs up, the machine will stop."
+			]
+			id: "7C716F993980D68F"
+			tasks: [{
+				id: "3D1218631BF3FB10"
+				type: "checkmark"
+			}]
+			title: "Brewery / Fermenter"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Bliss: Recipes take 1 eu/t and parallelize accordingly. (30 eu/t given means up to 30 recipes / t)"
+			]
+			id: "3A5300B9800062BE"
+			tasks: [{
+				id: "2859037D478417D1"
+				type: "checkmark"
+			}]
+			title: "Canner / Packer"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Rotational Hell: A kinetic input with maximum rpm is required. Recipes require their corresponding input tier for kinetic input. In exchange, recipes are a tenth of their time. Only recipes up to HV are allowed."
+			]
+			id: "2C19136EA0AD2920"
+			tasks: [{
+				id: "6EA883FA53E409E4"
+				type: "checkmark"
+			}]
+			title: "Centrifuge / Mixer"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist"
+				""
+				"Cleanliness Efficiency: A cleanroom is required to use this multiblock. While using this multiblock, recipes work 4x faster and 1x level down in energy. (ULV recipes are INSTANT)"
+			]
+			id: "1597EF5D6210E912"
+			tasks: [{
+				id: "715D97096581E188"
+				type: "checkmark"
+			}]
+			title: "Chem Bath / Chem Reactor"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Liquidity Powerhouse: If a recipe requires or turns into a liquid, the recipe goes down 1x level in energy. If the output matches an input (Non NBT, non Meta), the recipe goes down 1x level in energy. If a multiple of 4 or 9 is used in a recipe, the recipe goes down 1x level in energy."
+				""
+				"ULV recipes are free and LuV recipes are possible if at least one condition is met."
+				"LV recipes are free and ZPM recipes are possible if at least two conditions are met."
+				"MV recipes are free and UV recipes are possible if all three conditions are met."
+			]
+			id: "79FC3080FB6D8148"
+			tasks: [{
+				id: "635230F9B3FC4BBE"
+				type: "checkmark"
+			}]
+			title: "Compressor / Extractor / Forming Press / Fluid Solidifier"
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Heavy Distilling: For double the input, the bottom three fluids and any solids are given."
+			]
+			id: "4B78401E13AF86C8"
+			tasks: [{
+				id: "4007DBAFF4D9CD75"
+				type: "checkmark"
+			}]
+			title: "Distillery"
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Tesla Field: The multiblock requires an energy cost that relies on rotation. The energy cost is 1/floor(givenRPM/60), with at least 60 rpm required."
+			]
+			id: "6F6DDE6E86C470C9"
+			tasks: [{
+				id: "127477E8389F6C3B"
+				type: "checkmark"
+			}]
+			title: "Electrolyzer / Electro Separator / Polarizer"
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Sorter's Dream: The following additional ingredients are needed every second in exchange for double output."
+				""
+				"-10mB Lubricant"
+				"-20mB Steam"
+				"-100mB Distilled Water"
+				"-200mB Graphitic Slurry"
+			]
+			id: "7249FB17BF0E3102"
+			tasks: [{
+				id: "64DCDC31AA5E104D"
+				type: "checkmark"
+			}]
+			title: "Ore Washer / Sifter"
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Flaring Combo: This multiblock requires an LV+ kinetic input at 128 RPM to run. HV kinetic inputs work for HV+. This multiblock also requires a flammable gas (anything from the combustion/gas generator), oxygen, and a solid fuel to work. In exchange, there is a whopping 64x energy cost decrease, or 3 levels down (MV and lower are free). There are also specialty recipes available at EV using this multiblock."
+			]
+			id: "41846960021AB02C"
+			tasks: [{
+				id: "6DE84AE4C74CD033"
+				title: "Thermal Centrifuge"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Crushing: This multiblock requires 20mB lubricant/s to work, but allows for 4x input and and 4x output."
+			]
+			id: "299F1202F7DFF886"
+			tasks: [{
+				id: "6DB0542122B5237C"
+				type: "checkmark"
+			}]
+			title: "Macerator"
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Almost Instant Collection: The total time to collect gasses is massively decreased (2 seconds maximum)."
+			]
+			id: "46A2A5AEA3E978E2"
+			tasks: [{
+				id: "280823487F20659D"
+				type: "checkmark"
+			}]
+			title: "Gas Collector / Air Scrubber"
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			description: ["Building on the HI multiblocks, these multiblocks work with parallelizational hatches to work."]
+			id: "58234651CECEF6F4"
+			tasks: [{
+				id: "6D10D037036044AF"
+				title: "Parallel Multiblocks"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"UHI (Ultra High Intensity) Multiblocks take the best of both types of multiblocks, and after some UHV module working, its possible to pull off some insane bonuses."
+				""
+				"UIs take HI bonuses, amplify them, and allow for 2 parallelization hatches that stack multiplicatively for recipes and energy cost."
+			]
+			id: "1850C40AC5A024F3"
+			tasks: [{
+				id: "478C3BF2225FA654"
+				title: "UI Multiblocks"
+				type: "checkmark"
+			}]
+			title: "UHI Multiblocks"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Heated Efficiency: This multiblock requires fuel to operate at 200% efficiency, otherwise the machine runs at 100% efficiency."
+			]
+			id: "1BEFE70048FF1F1F"
+			tasks: [{
+				id: "0E0371681D2B5591"
+				title: "HI Furnace"
+				type: "checkmark"
+			}]
+			title: "Furnace / Alloy Smelter / Fluid Heater"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Oxoflare: The multiblock uses 100 mB of oxygen per item. In exchange, the voltage required goes down by 4 levels. (Up to HV recipes work for free) Any energy-free recipes also use 10mB bucket of oxygen just as a heads up."
+			]
+			id: "6DECE232BD2B524E"
+			tasks: [{
+				id: "18ED39671AFE40C5"
+				type: "checkmark"
+			}]
+			title: "Arc Furnace"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Advanced Machinery: The multiblock requires omnidirectional conveyors and UHV components to make. However, recipes work three voltage tier down (Up to MV is free) and cleanroom requirements are waived as long as a ultraviolet component is used."
+			]
+			id: "161B781049998B0A"
+			tasks: [{
+				id: "45186613899387BD"
+				type: "checkmark"
+			}]
+			title: "Assembler / Circuit Assembler / Scanner"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The twist:"
+				""
+				"Productive Power Consumption: This multiblock takes 16x inputs and gives 16x outputs at all times. Power consumption is 4x in energy to compensate."
+			]
+			id: "3D74880A6FF07150"
+			tasks: [{
+				id: "4B74EC866E7CF707"
+				type: "checkmark"
+			}]
+			title: "Autoclave"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Efficient Workhorse: This multiblock has a 64x input requirement and and a 64x output. Normally, this would cause a 4x jump in energy demand, but if you provide 20 mB of advanced graphene slurry per recipe, the energy only scales as 0.25x in cost."
+			]
+			id: "2C524A37D4E5DCCC"
+			tasks: [{
+				id: "2EAFB1D1AD7AED57"
+				type: "checkmark"
+			}]
+			title: "Bender / Lathe / Forge Hammer / Wiremill / Extruder"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"UHI Laser: This multiblock requires UHV level technology to make. Wafer recipes return 16x in productivity and all other recipes return 4x in productivity."
+			]
+			id: "37C3382C9B62C7BD"
+			tasks: [{
+				id: "51E2661FBB193F5C"
+				title: "Laser Engraver"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Well-oiled Machine: The cost for one recipe is 1 mB of graphitic slurry. However, the energy cost is 0.25x."
+			]
+			id: "70B15A153179284F"
+			tasks: [{
+				id: "21AF8828F23AE9EE"
+				type: "checkmark"
+			}]
+			title: "Cutter"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Expandable Brewing: The larger this multiblock, the more productive it is. The multiblock can be anywhere between 1 and 90 blocks tall. Formula: 100% + (10*#[height])% for recipe, (10*#[height])% for brewer's scum, which can be macerated into biochaff. If the brewer's scum backs up, the machine will stop."
+			]
+			id: "10CA43ECDA012D06"
+			tasks: [{
+				id: "295D94F60031DE54"
+				type: "checkmark"
+			}]
+			title: "Brewery / Fermenter"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Bliss: Recipes take 1 eu/t and parallelize accordingly. (300 eu/t given means up to 300 recipes/t)"
+			]
+			id: "161A09165E718BFC"
+			tasks: [{
+				id: "52DFA13BB79AE24C"
+				type: "checkmark"
+			}]
+			title: "Canner / Packer"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Rotational Hell: A slow twist kinetic input is required. In exchange, a 16x parallel is allowed straight off with a 4x slowdown and 0.25x energy cost."
+			]
+			id: "2E1FB709A4ED1055"
+			tasks: [{
+				id: "16FA33AC63EA408E"
+				type: "checkmark"
+			}]
+			title: "Centrifuge / Mixer"
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist"
+				""
+				"Cleanliness Efficiency: A sterile cleanroom is required to use this multiblock. While using this multiblock, recipes work 64x faster and 4x level down in energy. (Up to HV is INSTANT)"
+			]
+			id: "6892551D6988A59E"
+			tasks: [{
+				id: "1A9809171081F9F4"
+				type: "checkmark"
+			}]
+			title: "Chem Bath / Chem Reactor"
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Liquidity Powerhouse: If a recipe requires or turns into a liquid, the recipe goes down 2x level in energy. If the output matches an input (Non NBT, non Meta), the recipe goes down 2x level in energy. If a multiple of 4 or 9 is used in a recipe, the recipe goes down 2x level in energy."
+				""
+				"LV recipes are free are possible if at least one condition is met."
+				"HV recipes are free are possible if at least two conditions are met."
+				"IV recipes are free are possible if all three conditions are met."
+			]
+			id: "06368A2EE449F14E"
+			tasks: [{
+				id: "7A9CC9B9949F30B8"
+				type: "checkmark"
+			}]
+			title: "Compressor / Extractor / Forming Press / Fluid Solidifier"
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Power Distilling: For double the input, a select input is given at a ratio of input to output of 2:1."
+			]
+			id: "11FAF958F3A4F558"
+			tasks: [{
+				id: "6B8DEA74E0899AC4"
+				type: "checkmark"
+			}]
+			title: "Distillery"
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Tesla Field: The multiblock requires an energy cost that relies on rotation. The energy cost is 1/floor(givenRPM/30), with at least 30 rpm required. If a slow twist kinetic input is used instead, the energy cost is givenRPM/1 and the productivity is floor(16/givenRPM)."
+			]
+			id: "72C4C3B33F8EF1D3"
+			tasks: [{
+				id: "115CDE4DFA2952CF"
+				type: "checkmark"
+			}]
+			title: "Electrolyzer / Electro Separator / Polarizer"
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Sorter's Dream: The following additional ingredients are needed every second in exchange for quadruple output."
+				""
+				"-100mB Lubricant"
+				"-200mB Graphitic Slurry / 20mB Advanced Graphitic Slurry"
+				"-10,000mB Distilled Water"
+			]
+			id: "78F19A05DFAB3D79"
+			tasks: [{
+				id: "03FE19ABB9FF4FE3"
+				type: "checkmark"
+			}]
+			title: "Ore Washer / Sifter"
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Flaring Combo: This multiblock requires a slow twist kinetic input to run. This multiblock also requires a flammable gas (anything from the combustion/gas generator), oxygen, and a solid fuel to work. In exchange, there is a whopping 256x energy cost decrease, or 4 levels down (HV and lower are free)."
+			]
+			id: "3228CA2338BB37BE"
+			tasks: [{
+				id: "55BF9E3AEDDDCD77"
+				title: "Thermal Centrifuge"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Crushing: This multiblock requires 20mB graphitic slurry/s to work, but allows for 64x input and and 64x output."
+			]
+			id: "2260BB25F5BCA993"
+			tasks: [{
+				id: "2421E1134536A0BC"
+				type: "checkmark"
+			}]
+			title: "Macerator"
+			x: 22.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Twist:"
+				""
+				"Instant Collection: The total time to collect gasses is massively decreased (10 ticks maximum)."
+			]
+			id: "4795781292378274"
+			tasks: [{
+				id: "022990E83596F0C9"
+				type: "checkmark"
+			}]
+			title: "Gas Collector / Air Scrubber"
+			x: 23.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"The Virtual Space Manager is a massive computer oriented program that normally results in special knowledge only."
+				""
+				"However, the mass-energy boundary is so thin and computing knowledge so wide that we can now \"virtualize\" normal interactions and have those interactions happen to an object."
+				""
+				"{@pagebreak}"
+				"The cost to maintain the virtualization per tick is 1 eu/block/(vtick/s)/TempK. "
+				""
+				"That might seem like a nice and cheap number, but to virtualize a block size of 16x16x16 at 20 vticks per second at Cosmic Background Radiation (3K) is already 245760 eu to maintain, or nearly 2 ZPM amps per tick!"
+				""
+				"Fortunately, I have upgrades that you can use to your advantage."
+				""
+				"Remember that upgrade colors correlates to typing and RGB can be arranged in a circle clockwise, so the clockwise type to R is G."
+				""
+				"Temperature => Red"
+				"Time => Green"
+				"Space => Blue"
+				""
+				"{@pagebreak}"
+				""
+				"Note that the Virtual Space Manager only considers temperature in its average form."
+				""
+				"If an event causes an expansion, the space will automatically adjust and proceed to eat more of your energy budget."
+				"If an event causes an increase in heat, temperature costs will continue to rise."
+				""
+				"If the VSM fails with the temperature above 3,000 K, it explode GT5 Nuclear Style."
+				""
+				"If the VSM fails with tick speed above 30 vticks, the VSM becomes contaminated with \"unstable chronoparticles\". Having an \"infected\" block/item in your inventory gives you \"time warp\", which is just blindness, slowness, and mining fatigue. You can deal with this by having a suit with enchantment or aspect (chronoimmune)."
+			]
+			id: "5B4C4F7919DF9DC4"
+			tasks: [{
+				id: "2F852A933F1BC4D4"
+				title: "Virtual Space Manager"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The Subpar Upgrade is the first object."
+				""
+				"Interactions: None"
+				"Strength: 1x"
+			]
+			id: "687C9DDC7520F660"
+			tasks: [{
+				id: "7955E54B2FF3C0E4"
+				title: "Tier 0 Upgrades: Subpar"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 1 allows for a nice bonus. Note that divisions result in floored results, with a minimum of 1x to the energy cost"
+				""
+				"Interactions: None"
+				"Strength: x10"
+			]
+			id: "1D86789C039321BC"
+			tasks: [{
+				id: "204B0A8BBF2C73E8"
+				title: "Tier 1: Basic"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 2 upgrades are better than tier 1, but exchange this by dividing the strength of the type clockwise to it."
+				""
+				"Interactions: Strength of type clockwise is 0.75x"
+				"Strength: 100x"
+			]
+			id: "7ADEF088AA4741AB"
+			tasks: [{
+				id: "1235FFA2561FA386"
+				title: "Tier 2: Machined"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 3 Upgrades are stronger than Tier 2 by far, but result in the type counterclockwise to it taking a large debuff."
+				""
+				"Interactions: Strength of type counterclockwise type is 0.1x"
+				"Strength: 1000x"
+			]
+			id: "323A9FE49DF20ECC"
+			tasks: [{
+				id: "7B086CE24362F696"
+				title: "Tier 3: Precise"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 4 upgrades are as powerful as Tier 3 but buff the counterclockwise by 2x (10x if the tier is 3 or lower) and debuff the clockwise by 5x (20x if tier 4."
+				""
+				"Interactions:"
+				"Strength of clockwise type is 0.2x (0.05x if tier 4)"
+				"Strength of counterclockwise type is 2x if tier 3-)"
+				""
+				"Strength:1000x"
+			]
+			id: "6B5F361907941899"
+			tasks: [{
+				id: "743B5CA3A4305C19"
+				title: "Tier 4: Assembled"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 5 have nice bonuses, but require liquid nitrogen to run. Don't worry, its not that much yet."
+				""
+				"Interactions:"
+				"Consumes 1mb Liquid Nitrogen per second"
+				"Clockwise bonus of 5x"
+				"Counterclockwise bonus of 5x"
+				""
+				"Strength: 10,000x"
+			]
+			id: "309322DD77527AE0"
+			tasks: [{
+				id: "6790065796A8E3FA"
+				title: "Tier 5: Solar"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 6 units need blood to survive, and produce deoxegeneated blood in return. Yes, hemoglobin production."
+				""
+				"Interactions:"
+				"Requires 10mb/s of blood, produces 8mb of deoxegenated blood"
+				"Clockwise bonus of 3x (1x if Tier 5)"
+				"Counterclockwise bonus of 3x (1x if Tier 5)"
+				""
+				"Strength: 100,000x"
+			]
+			id: "00E27BB8CEBEADE4"
+			tasks: [{
+				id: "4016B1609988AFA9"
+				title: "Tier 6: Living"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 7s require constant manipulation to stay afloat, and therefore require compute."
+				""
+				"Interactions:"
+				"Requires 500 compute available"
+				""
+				"Counterclockwise bonus of 7x (777x if Tier 7)"
+				"Clockwise bonus of 7x (777x if Tier 7)"
+				""
+				"Strength: 1,000,000x"
+			]
+			id: "481BFE7E4F00B381"
+			tasks: [{
+				id: "46D48C92197AF181"
+				title: "Tier 7: Computing"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 8s require photons to run. Note that you must have ALL Tier 8s here"
+				""
+				"Interactions: "
+				"Requires 1 photon/minute where"
+				"-Red: Red bonus of 10x"
+				"-Orange: Red bonus of 7x and Green bonus of 3x"
+				"-Yellow: Red Bonus of 5x and Green bonus of 5x"
+				"-Lime: Red bonus of 3x and Green bonus of 7x"
+				"-Green: Green bonus of 10x"
+				"-Aqua: Green bonus of 7x and Blue bonus of 3x"
+				"-Cyan: Green bonus of 5x and Blue bonus of 5x"
+				"-Sky: Green bonus of 3x and Blue bonus of 7x"
+				"-Blue: Blue bonus of 10x"
+				"-Indigo: Red bonus of 3x and Blue bonus of 7x"
+				"-Purple: Red bonus of 5x and Blue bonus of 5x"
+				"-Magenta: Red bonus of 7x and Blue bonus of 3x"
+				""
+				"-White: Red bonus of 3x, Green bonus of 3x, and Blue bonus of 3x"
+				"-Full Spectra: Red bonus of 10x, Green bonus of 10x, and Blue bonus of 10x"
+				""
+				"Strength: 1,000,000,000x"
+			]
+			id: "734F9D79E56D7021"
+			tasks: [{
+				id: "06A04FF953074066"
+				title: "Tier 8: Optical"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 9s require the periodic table"
+				""
+				"Interactions:"
+				"Requires 1 periodic table per hour"
+				""
+				"Strength: 1,000,000,000,000"
+			]
+			id: "0AB89BE703D7685C"
+			tasks: [{
+				id: "2155CE19564FFE2A"
+				title: "Tier 9: Atomic"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tier 10s require a SUN for proper power"
+				""
+				"Interactions:"
+				"Eats 1 sun per hour"
+				""
+				"Strength: "
+				"1*10^15 "
+				"(for reference, this number is so big that the space module only needs roughly 10 eu/t to run a space of 1 meter by 1 meter by 1 LIGHTYEAR if the time and temperature were at minimum capacity."
+			]
+			id: "09AB2A494251E116"
+			tasks: [{
+				id: "3A283B87F09EB8A1"
+				title: "Tier 10: Galactic"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			description: ["Ooooh"]
+			id: "5664A489DE307E52"
+			tasks: [{
+				id: "360D9D5E6A8DE89A"
+				title: "Custom multiblocks"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"In short, laser beam!"
+				""
+				"You will need photon containment facets to handle photons."
+				""
+				"Laser/Photon + Lensing Object = New Photon"
+				""
+				"Better Emitter/Laser = More Photons but more likely to break."
+				""
+				"Nether Star lens gives its \"spectra\", of which there are 12 colors available:"
+				""
+				"Red, Orange, and Yellow"
+				"Lime, Green, and Aqua"
+				"Cyan, Sky, and Blue"
+				"Indigo, Purple, and Magenta"
+				" "
+				"More Lenses on the other page"
+				""
+				"{@pagebreak}"
+				"Red Lenses allow only Red, Orange, and Yellow"
+				"Green Lenses allow only Lime, Green, and Aqua"
+				"Blue Lenses allow only Cyan, Sky, and Blue"
+				"Black Lenses allow only Indigo, Purple, and Magenta"
+				""
+				"White Lenses focus more towards Red and Blue Types, and less towards Green and Purple Types"
+				"Yellow Lenses focus more towards Red and Green Types, and Less towards Blue and Purple Types"
+				"Cyan Lenses focus more towards Green and Blue Types and less towards Red and Purple Types"
+				""
+				"Magenta Lenses focus more towards Purple Types and rarely expose \"special particles\" that can be used to generate a lot of photons or use in making specialty elements."
+			]
+			id: "7BFEE7AB23B0D0C5"
+			tasks: [{
+				id: "64BF7C7904A8AFB6"
+				title: "Photonic Provider"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"A massive crystal grower."
+				""
+				"You can change the atmosphere by adding select gasses. The process could change the atmostsphere as well."
+				""
+				"Thankfully, no EU, RF, Kinetic, Thermo, or Steam is needed as power (Steam, however, could be used as a gas here)."
+			]
+			id: "21B8EB1FC7887D94"
+			tasks: [{
+				id: "4C6E83B9DE9E26B7"
+				title: "Atmospheric Crystal Chamber"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Easy peasy. Generic Ore comes in, select ores that could have been confusable come out."
+				""
+				"Takes Kinetic"
+			]
+			id: "595818B12EBC8771"
+			tasks: [{
+				id: "394A002D6F923621"
+				title: "Ore Sorter"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Once you finally get mekanized alloy, you can make the stuff needed to finish your precise casting unit!"
+				""
+				"4x speed on regular molds, and has special recipes!"
+				""
+				"Aero Frame => Needed for spaceships and later framing. Can be made into 2 frames with 2 more rods."
+				""
+				"Shaft => Needed for spaceships. Can be made into 8 rods [lathe] or 16 bolts [cutting]"
+				""
+				"Gear Stack => Needed for later macerators Can be made into 4 gears [cutting]"
+				""
+				"Small Gear Stack => Can be made into 6 small gears [cutting]"
+				""
+				"Rotor Set => Can be made into 4 rotors [cutting]"
+			]
+			id: "5ADB516ACCD919C7"
+			tasks: [{
+				id: "3034B255823A1494"
+				title: "Precise Casting Unit"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+	]
+	title: "Multiblocks: Expansion"
+}

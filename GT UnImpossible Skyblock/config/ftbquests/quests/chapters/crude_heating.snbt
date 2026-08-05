@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crude_heating"
+	group: "0A816AAA5592EDDF"
+	id: "3B635707858155E4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Crude Heating"
+}

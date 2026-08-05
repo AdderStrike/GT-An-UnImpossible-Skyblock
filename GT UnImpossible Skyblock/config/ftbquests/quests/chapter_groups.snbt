@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "52588E30EF4CD35C", title: "The Pre-Furnace Grind" }
+		{ id: "6C58BD365E76624A", title: "The Tinkerers Strike Back" }
+		{ id: "0A816AAA5592EDDF", title: "Steam, RF, and ULV: 3 ages in 1" }
+		{ id: "462FDD2A9EA8E623", title: "LV: So are you ready for LV?" }
+		{ id: "085C3D5D162961D5", title: "MV: I Have an EBF and I know how to use it!" }
+		{ id: "497A652402E96D67", title: "The Trees of Nature" }
+		{ id: "58FD58AAE353ADD3", title: "A Gregged Up Chapter Group" }
+	]
+}

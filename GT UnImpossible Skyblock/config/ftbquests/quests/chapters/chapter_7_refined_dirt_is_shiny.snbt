@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_7_refined_dirt_is_shiny"
+	group: "52588E30EF4CD35C"
+	id: "21F76D7D6E984812"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter 7: Refined Dirt is Shiny"
+}

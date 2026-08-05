@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_16_the_tinkercore"
+	group: "6C58BD365E76624A"
+	id: "0F889F1EC80BE5B6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter 16: The TinkerCore"
+}

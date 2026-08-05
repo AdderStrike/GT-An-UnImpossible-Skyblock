@@ -1,0 +1,40 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_tree"
+	group: "497A652402E96D67"
+	id: "68E5E076DF5067E2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"The ore tree works for gregtech ores in such a way that the following can happen."
+			""
+			"Crafting Table:"
+			""
+			""
+			" A | B | A"
+			"--------"
+			" B | C | B"
+			"--------"
+			" A | B | A"
+			""
+			"A is the previous dirty ore chunk"
+			"B is the previous dirty dust"
+			"C is the target dust"
+			""
+			"The result with be the target ore."
+			""
+			"Sometimes a ore may be treated in such a way to get a different ore, so the chain isn't so monotone. Expect sorting and primitive chemical reactions to transmute stuff."
+		]
+		id: "4B1A74426E6578C6"
+		tasks: [{
+			id: "67E155FCAED09D89"
+			title: "How Does this Work?"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.5d
+	}]
+	title: "Ore Tree"
+}

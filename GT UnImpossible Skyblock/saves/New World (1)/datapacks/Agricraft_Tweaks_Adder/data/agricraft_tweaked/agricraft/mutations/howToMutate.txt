@@ -1,0 +1,50 @@
+Hi there!
+
+This text file is to explain how mutations work in this datapack!
+
+Lets say we have a plant, plant1.
+
+How can it breed with other plants?
+Well, if plant1 is a main plant for a level, then breeding with itself can get other plants up to one above its level.
+Otherwise, the highest it can breed on its own is its own level.
+
+There are 4 levels:
+    --cot (special)
+    --order
+    --set
+    --tribe
+
+If a plant is the only plant at said level, it can breed with other plants one level above to handle stuff like that.
+At the order level, however you can only breed plants from the same cot:
+There are three cots:
+    --Monocots
+    --Euclidcots
+    --None/Special
+
+Here are the chances of breeding plant1 from other crops:
+    50% nothing happens
+    25% comes from tribe members and the main plant of the tribe
+    15% comes from set members and main plant of the set
+    10% comes from order members and the main plant of the order
+
+Here are the chances if plant1 is the main tribe member and you don't have any other members of that tribe
+    75% nothing happens
+    15% comes from set members and the main plant of the set
+    10% comes from order members and the main plant of the order
+
+Here are the chances if plant1 is the main set member and you don't have any other members of that set
+    90% nothing happens
+    10% comes from order members and the main plant of the order
+
+Here are the chances if plant1 is the main order member and you dont have any other members of that order
+    5% comes from other main plant members of other orders
+
+There are of course some exceptions:
+    Spiceleaves have a 20% chance of occuring from tulip breeding
+    Tealeaves have a 20% chance of occuring from Spiceleaves
+    Candleberries are twice as rare
+    Elderberries are 4x as rare without candleberries and 2x as common with candleberries
+    Sweet Berries require spiceleaves and candleberries/elderberries, with elderberries giving it an easier time to appear
+
+    TREES ARE SPECIAL and juniper berries are in the tree section despite your objection, requiring sweet berries to appear.
+

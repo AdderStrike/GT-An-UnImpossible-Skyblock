@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter____stained_steel"
+	group: "085C3D5D162961D5"
+	id: "3EA0F792C61D0CFB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Chapter __: Stained Steel"
+}

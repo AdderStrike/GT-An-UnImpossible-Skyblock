@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_13_your_biggest_grind_yet"
+	group: "52588E30EF4CD35C"
+	id: "754086BF4A5CBB1A"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		description: ["There is only one quest in chapter 13: Get the furnace. Easy, right? YOUVE BEEN LIED TO"]
+		id: "1329FEA2378CE2DB"
+		tasks: [{
+			id: "0EB10D264A00F353"
+			title: "Chapter 13: The Furnace run"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -1.0d
+	}]
+	title: "Chapter 13: Your biggest grind yet"
+}

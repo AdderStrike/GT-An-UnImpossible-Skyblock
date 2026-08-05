@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_6_fire"
+	group: "52588E30EF4CD35C"
+	icon: "minecraft:campfire"
+	id: "79FAA61AE7F94A6E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The plan for Chapter 6 runs like this:"
+				"- Get Allium Set"
+				"- Start Decomposition for bonemeal"
+				"- Get ahold of refined dirt! Takes a multiblock made with fire, some mud bricks, a bound wooden item (OOOH)"
+				"- Refined dirt also starts the path towards a crafting table (Flint tools needed a binder, and bound wooden items work?)"
+				"- Answer the question: what is a bound wooden item? (Its a Tinkercore Tier 0! Nobody should figure that out yet)"
+				"- Crafting Tables need an oak plank (I CALL UPON A GARGANTUAN BINDER FOR THIS UNDERTAKING) and andesite alloy"
+			]
+			id: "52961971B6280DAC"
+			tasks: [{
+				id: "264A12EBB8AE2337"
+				title: "Planning Chapter 6"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The allium set is needed for what is coming."
+				""
+				"Scuffed alchemistry stuff, yknow"
+			]
+			id: "748CD2FA6AEA293C"
+			tasks: [{
+				id: "4F3AB60A6ACF4AA5"
+				item: "minecraft:allium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Woah, thats a lot of binder! Are you trying to make something big? Like, a block big?"]
+			id: "6E32685C834F36C2"
+			tasks: [{
+				id: "763F1CE1670D0E2F"
+				item: "kubejs:flammable_binder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+	title: "Chapter 6: Fire!"
+}
