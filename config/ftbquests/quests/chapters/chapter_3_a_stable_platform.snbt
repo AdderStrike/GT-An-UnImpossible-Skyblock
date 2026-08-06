@@ -190,7 +190,7 @@
 		}
 		{
 			dependencies: ["214226E8555095D0"]
-			description: ["The rain alter will allow you to get rain, but its not cheap"]
+			description: ["The rain alter will allow you to get rain, but its not cheap. you will need 10 wheat per cycle or rain, a rain can be 1-5mins"]
 			id: "6757ED9A071D9CB5"
 			tasks: [{
 				id: "1A6A4F884D2341DC"
@@ -199,6 +199,19 @@
 				type: "item"
 			}]
 			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C6129049C26FBD1"]
+			description: ["this will up the chances to 1/3 not 1/10, also check out ferteliser(less efficent overall)"]
+			id: "3CE394AD9D26D7AC"
+			tasks: [{
+				id: "0577A3E1BF885C5B"
+				item: "minecraft:oak_log"
+				title: "filler(wheat tool)"
+				type: "item"
+			}]
+			x: 6.5d
 			y: -1.0d
 		}
 	]
