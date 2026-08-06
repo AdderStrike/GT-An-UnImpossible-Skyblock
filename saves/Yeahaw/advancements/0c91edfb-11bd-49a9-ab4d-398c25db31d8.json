@@ -594,5 +594,329 @@
     },
     "done": true
   },
+  "croptopia:root": {
+    "criteria": {
+      "root": "2026-08-05 19:56:06 -0400"
+    },
+    "done": true
+  },
+  "agricraft:recipes/tools/seed_bag": {
+    "criteria": {
+      "has_seed": "2026-08-05 19:56:51 -0400"
+    },
+    "done": true
+  },
+  "agricraft:recipes/tools/seed_analyzer": {
+    "criteria": {
+      "has_seed": "2026-08-05 19:56:51 -0400"
+    },
+    "done": true
+  },
+  "agricraft:recipes/tools/journal": {
+    "criteria": {
+      "has_seed": "2026-08-05 19:56:51 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/blue_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/black_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/magenta_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/light_blue_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/green_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/pink_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/white_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/gray_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/lime_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/purple_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/cyan_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/yellow_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/red_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/orange_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/brown_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "interiors:recipes/building_blocks/crafting/cushion/light_gray_cushion": {
+    "criteria": {
+      "has_planks": "2026-08-05 20:07:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/tables/pattern": {
+    "criteria": {
+      "has_item": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "agricraft:recipes/tools/wooden_crop_sticks": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "agricraft:recipes/tools/wooden_rake": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crank": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "agricraft:recipes/tools/iron_rake": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "agricraft:recipes/tools/magnifying_glass": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2026-08-05 20:12:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2026-08-05 20:13:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2026-08-05 20:13:06 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/decorations/gadgets/punji": {
+    "criteria": {
+      "has_item": "2026-08-05 20:13:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2026-08-05 20:13:06 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2026-08-05 20:13:36 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_egg": {
+    "criteria": {
+      "has_wheat": "2026-08-05 20:13:36 -0400"
+    },
+    "done": true
+  },
+  "architects_palette:recipes/building_blocks/bread_block": {
+    "criteria": {
+      "has_wheat": "2026-08-05 20:13:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2026-08-05 20:13:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2026-08-05 20:13:36 -0400"
+    },
+    "done": true
+  },
+  "croptopia:recipes/documentation": {
+    "criteria": {
+      "has_crop": "2026-08-05 20:13:36 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/stove": {
+    "criteria": {
+      "has_campfire": "2026-08-05 20:17:05 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2026-08-05 20:18:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-08-05 20:20:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-08-05 22:08:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2026-08-05 22:41:37 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2026-08-05 22:41:37 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2026-08-05 22:41:37 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

@@ -1,13 +1,12 @@
-let itemTopH = {
+/*let itemTopH = {
 
 }
 
 ServerEvents.recipes(event => {
-    event.recipes.gtceu.mixer("organic_solution_mix")
+    event.recipes.gtceu.mixer("organic_solution_mix").EUt(0.75*GTValues.VA[GTValues.LV]).duration(100)
         .itemInput(Item.of("croptopia:lettuce",8))
         .inputFluids(Fluid.of("minecraft:water",1000))
         .outputFluids(Fluid.of("gtceu:organic_solution_ph6",1000))
-        .EUt(0.75*GTValues.VA[GTValues.LV]).duration(100)
 
 
     
@@ -20,7 +19,7 @@ ServerEvents.recipes(event => {
         pH 9-15: Sol + 9E = Sol+1
 
         Since 7 is a median, adding two solutions together that add up to 14 work fine as 2 buckets of ph7
-    */
+    *//*
     // Basic Dilution
     for (var i = 0; i<5; i++) {
         event.recipes.gtceu.mixer("organic_solution_dilute_water_"+i+"to"+(i+1))
@@ -77,4 +76,4 @@ ServerEvents.recipes(event => {
                 Fluid.of("gtceu:organic_solution_ph"+(14-i),1000)
             ).outputFluids(Fluid.of("gtceu:organic_solution_ph7"),2000)
     }
-})
+})*/
