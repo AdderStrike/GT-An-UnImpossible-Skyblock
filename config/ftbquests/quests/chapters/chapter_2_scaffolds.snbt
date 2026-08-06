@@ -179,6 +179,11 @@
 				"You may get something special from this coarse dirt..."
 			]
 			id: "0245DC10C643F3DF"
+			rewards: [{
+				id: "24C06F15FA9E92DE"
+				item: "minecraft:chest"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [

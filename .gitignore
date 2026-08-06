@@ -1,0 +1,22 @@
+# World saves
+saves/
+
+# Logs and crash reports
+logs/
+crash-reports/
+
+# Screenshots
+screenshots/
+
+# Local caches / generated files
+local/
+ldlib/
+schematics/
+
+# Instance-specific / machine-specific files
+usercache.json
+usernamecache.json
+rhino.local.properties
+
+# Editor
+.vscode/

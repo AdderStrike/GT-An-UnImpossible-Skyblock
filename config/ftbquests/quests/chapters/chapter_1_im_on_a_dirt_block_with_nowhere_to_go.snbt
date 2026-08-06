@@ -213,6 +213,31 @@
 			x: 5.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["549FD6412030C63E"]
+			description: ["you can craft rods, each rod will give you 5 of the coresponding metal, but has a chance to brake on use. very recommended to use them."]
+			id: "316D268EAB357D5E"
+			tasks: [
+				{
+					id: "5D608B6A19BE3A6F"
+					item: "gtceu:andesite_rod"
+					type: "item"
+				}
+				{
+					id: "7E400C3D21612476"
+					item: "gtceu:diorite_rod"
+					type: "item"
+				}
+				{
+					id: "65D350EC35192837"
+					item: "gtceu:granite_rod"
+					type: "item"
+				}
+			]
+			title: "more metals"
+			x: 3.5d
+			y: 9.0d
+		}
 	]
 	title: "Chapter 1: One block"
 }
