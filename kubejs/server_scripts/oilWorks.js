@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+/*ServerEvents.recipes(event => {
     event.recipes.gtceu.distillation_tower("spectral_oil_full_dist").duration(400).EUt(0.6*GTValues.VA[GTValues.HV])
     .inputFluids(
         Fluid.of("gtceu:spectral_oil",50*1000)
@@ -25,3 +25,4 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(10)
     });
 });
+*/

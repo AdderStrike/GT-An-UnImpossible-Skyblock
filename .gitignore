@@ -17,6 +17,7 @@ schematics/
 usercache.json
 usernamecache.json
 rhino.local.properties
+minecraftinstance.json
 
 # Editor
 .vscode/

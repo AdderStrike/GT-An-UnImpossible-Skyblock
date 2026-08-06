@@ -4,6 +4,7 @@
 	name: "fun#7a458f13"
 	lock: false
 	rewards_blocked: false
+<<<<<<< HEAD
 	task_progress: {
 		05496FD73E391FEB: 1L
 		6F856D4B5D898685: 1L
@@ -156,6 +157,11 @@
 		0173B21BB2F3E0E1: 1785968576094L
 		42323FE40A892098: 1785968636345L
 	}
+=======
+	task_progress: { }
+	started: { }
+	completed: { }
+>>>>>>> d1faf13b40602109963430336ca011742d06c3a8
 	repeatable: { }
 	completion_count: { }
 	claimed_rewards: {

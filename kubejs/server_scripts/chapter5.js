@@ -28,6 +28,34 @@ ServerEvents.recipes(event => {
             "kubejs:flammable_binder"
         ]
     )
+
+    event.shapeless(
+        Item.of("gtceu:impure_hematite_dust",1).withChance(0.25),
+        [
+            "kubejs:flammable_binder",
+            Item.of("woodenbucket:wooden_bucket","FluidName:'minecraft:water'"),
+            "gtceu:hematite_indicator",
+            "gtceu:fertilizer"
+        ]
+    )
+
+    event.shapeless(
+        Item.of("gtceu:crushed_hematite_ore"),
+        [
+            "2x gtceu:impure_hematite_dust",
+            "kubejs:flammable_binder",
+            "minecraft:stick"
+        ]
+    )
+
+    event.shapeless(
+        Item.of("gtceu:raw_hematite"),
+        [
+            "gtceu:crushed_hematite_ore",
+            "2x kubejs:flammable_binder",
+            "minecraft:calcite"
+        ]
+    )
 })
 
 BlockEvents.broken(event=>{
@@ -57,6 +85,29 @@ BlockEvents.rightClicked("minecraft:scaffolding",event => {
     }
 });
 
+BlockEvents.rightClicked("minecraft:campfire", event => {
+    let player = event.player;
+    let mainHandItem = player.mainHandItem;
+    let offHandItem = player.offHandItem;
+
+    if (mainHandItem.id=="minecraft:flint"&&offHandItem.id=="gtceu:raw_hematite"||offHandItem.id=="minecraft:flint"&&mainHandItem.id=="gtceu:raw_hematite"){
+        let randomInt = Math.floor(Math.random()*11);
+        if (randomInt>=5) {
+            event.block.set("minecraft:campfire",{lit:true});
+        } else if (randomInt >2) {
+            let hematite = [mainHandItem.id,offHandItem.id].indexOf("gtceu:raw_hematite");
+            [event.player.mainHandItem,event.player.offHandItem][hematite].setCount([event.player.mainHandItem,event.player.offHandItem][hematite].count-1);
+        } else if (randomInt >0) {
+            let flint = [mainHandItem.id,offHandItem.id].indexOf("minecraft:flint");
+            [event.player.mainHandItem,event.player.offHandItem][flint].setCount([event.player.mainHandItem,event.player.offHandItem][flint].count-1);
+        } else {
+            event.player.mainHandItem.setCount(event.player.mainHandItem.count-1);
+            event.player.offHandItem.setCount(event.player.offHandItem.count-1);
+        }
+    }
+
+})
+
 BlockEvents.rightClicked("minecraft:oak_slab",event => {
     if (event.player.mainHandItem.id == "kubejs:flammable_binder") {
         let list_needed = [
@@ -73,9 +124,7 @@ BlockEvents.rightClicked("minecraft:oak_slab",event => {
             let hasRye = canCreateFromList(event,["pamhc2crops:ryeitem"],10);
             let hasBarley = canCreateFromList(event,["pamhc2crops:barleyitem"],10);
             if (hasWheat || hasRye || hasBarley) {
-                event.level.getBlock(event.block.pos).set("minecraft:campfire",{
-                    lit: 'false'
-            });
+                event.block.set("minecraft:campfire",{lit:false});
             num_list.push(10);
             if (hasWheat) list_needed.push("minecraft:wheat");
             else if (hasRye) list_needed.push("pamhc2crops:ryeitem");
