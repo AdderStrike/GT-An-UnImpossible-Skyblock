@@ -23,6 +23,10 @@
 			y: 0.5d
 		}
 		{
+			dependencies: [
+				"6757ED9A071D9CB5"
+				"7F70762B939F24CA"
+			]
 			description: ["They can be useful for what's ahead!"]
 			id: "2AB22D6BD982CB04"
 			tasks: [{
@@ -34,6 +38,10 @@
 			y: 0.5d
 		}
 		{
+			dependencies: [
+				"3B4DB297DEAA53F2"
+				"6757ED9A071D9CB5"
+			]
 			description: ["There is not much here, only a couple of checkmarks and one item quest. It is highly suggested to get the item quest completed, however."]
 			id: "7F70762B939F24CA"
 			tasks: [{

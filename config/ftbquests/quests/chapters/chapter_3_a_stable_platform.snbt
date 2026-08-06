@@ -11,7 +11,7 @@
 		{
 			dependencies: ["0245DC10C643F3DF"]
 			description: [
-				"Idek how, but through all of your grinding you got a hoe. Thats great news, but its time to get water and an easier way to get dirt."
+				"Idk how, but through all of your grinding you got a hoe. Thats great news, but its time to get water and an easier way to get dirt."
 				""
 				"Im gonna call that the seeds you may have gotten are going to be useful."
 			]
@@ -187,6 +187,19 @@
 			}]
 			x: 8.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["214226E8555095D0"]
+			description: ["The rain alter will allow you to get rain, but its not cheap"]
+			id: "6757ED9A071D9CB5"
+			tasks: [{
+				id: "1A6A4F884D2341DC"
+				item: "minecraft:oak_log"
+				title: "filler(put rain alter)"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
 		}
 	]
 	title: "Chapter 3: A Stable Platform"
