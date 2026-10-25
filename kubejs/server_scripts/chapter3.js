@@ -1,3 +1,4 @@
+
 ServerEvents.recipes(event => {
     event.shapeless(
         Item.of("gtceu:fertilizer",1),
@@ -140,7 +141,7 @@ ServerEvents.recipes(event => {
             "   "
         ],
         {
-            A:[Item.of("woodenbucket:wooden_bucket").withNBT({Damage:25}),"woodenbucket:wooden_bucket"],
+            A:"woodenbucket:wooden_bucket",
             B:"minecraft:mud_brick_wall",
             C:"minecraft:mud_brick_stairs",
             D:"minecraft:mud_bricks"

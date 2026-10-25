@@ -1,3 +1,4 @@
+//ignore:true
 /*ServerEvents.recipes(event => {
     event.recipes.gtceu.distillation_tower("spectral_oil_full_dist").duration(400).EUt(0.6*GTValues.VA[GTValues.HV])
     .inputFluids(

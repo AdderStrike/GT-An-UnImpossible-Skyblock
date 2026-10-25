@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         Item.of("gtceu:impure_hematite_dust",1).withChance(0.25),
         [
             "kubejs:flammable_binder",
-            Item.of("woodenbucket:wooden_bucket","FluidName:'minecraft:water'"),
+            Item.of("woodenbucket:wooden_bucket","{FluidName:'minecraft:water'}"),
             "gtceu:hematite_indicator",
             "gtceu:fertilizer"
         ]
